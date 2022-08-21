@@ -1,0 +1,10 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/phosphor.json",
+    "toggleable": false,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:ferrari/transform"
+    },
+    "hidden": true
+}

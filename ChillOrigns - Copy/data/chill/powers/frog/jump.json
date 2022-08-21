@@ -1,0 +1,17 @@
+{
+    "type":"origins:modify_jump",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.6
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+    },
+    "condition":{
+        "type":"origins:moving",
+        "inverted": true
+    },
+    "name": "jump",
+    "description": "by staying still you can jump high"
+}

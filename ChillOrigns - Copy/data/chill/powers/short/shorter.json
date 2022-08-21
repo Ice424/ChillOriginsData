@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "rising_action": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.25"
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.5"
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "shrink",
+    "description": "sneak to shrink"
+}

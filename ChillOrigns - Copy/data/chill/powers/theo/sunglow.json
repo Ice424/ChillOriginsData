@@ -1,0 +1,12 @@
+{
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.56862745098,
+    "green": 0.89019607843,
+    "blue": 0.65098039215,
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "name": "Sun glow",
+    "description": "you glow in the sun for some reason"
+}

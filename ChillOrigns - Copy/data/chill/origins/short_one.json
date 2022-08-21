@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"chill:short/short",
+		"chill:short/ride",
+		"chill:short/launch",
+		"chill:short/health",
+		"chill:short/speed_jump",
+		"chill:short/fall",
+		"chill:short/shorter"
+	],
+	"icon": "minecraft:stone_slab",
+	"order": 12,
+	"impact": 2,
+	"name": "The Short One",
+	"description": "The origin made for sachin vaid"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "minecraft:crafting_table",
+    "result": {
+        "item": "minecraft:oak_planks"
+    },
+    "entity_action":{
+        "type": "origins:drop_inventory",
+        "throw_randomly": true
+    },
+    "name":"incompetent",
+    "description": "Don't try crafting a crafting table, using an anvil or enchanting just don't."
+}

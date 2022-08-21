@@ -1,0 +1,37 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 50,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 24
+    },
+    "entity_action": {
+    "type": "origins:raycast",
+    "distance": 16,
+    "block": true,
+    "entity": true,
+    "shape_type": "visual",
+    "fluid_handling": "any",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "tag @s add tongue"
+        }
+    },
+    "before_action": {
+        "type": "origins:execute_command",
+        "command": "tag @e remove tongue"
+    },
+    "hit_action": {
+        "type": "origins:execute_command",
+        "command": "data modify entity @e[limit=1, tag=tongue] Pos set from entity @s Pos"
+    },
+    "command_along_ray": "particle minecraft:crit",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
+    },
+    "name": "tongue",
+    "description": "You can drag entities toward you with your tongue"
+}

@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"chill:frog/tongue",
+		"chill:frog/slow",
+		"chill:frog/jump",
+		"chill:frog/fall"
+	],
+	"icon": "minecraft:slime_block",
+	"order": 10,
+	"impact": 2,
+	"name": "Greg The Frog",
+	"description": "Ethan's origin"
+}

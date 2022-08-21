@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"chill:bigm/ddeal",
+		"chill:bigm/dtake",
+		"chill:bigm/eglow",
+		"chill:bigm/sglow"
+	],
+	"icon": "minecraft:end_portal_frame",
+	"order": 10,
+	"impact": 2,
+	"name": "Big M",
+	"description": "Mircea's origin"
+}

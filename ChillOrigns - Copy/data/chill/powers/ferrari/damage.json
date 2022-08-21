@@ -1,0 +1,38 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:enderman"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wither_skeleton"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wither"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:ender_dragon"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:bat"
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:spider"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 2
+    },
+    "name": "damage",
+    "description": "you deal double damage to certain mobs"
+} 

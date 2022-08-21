@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"chill:zeph/crafting",
+		"chill:zeph/enchant",
+		"chill:zeph/anvil",
+		"chill:zeph/underwater",
+		"chill:zeph/summon",
+		"chill:zeph/friends",
+		"chill:zeph/turn"
+	],
+	"icon": "minecraft:gold_block",
+	"order": 11,
+	"impact": 2,
+	"name": "The Prophet",
+	"description": "Zeph's origin"
+}

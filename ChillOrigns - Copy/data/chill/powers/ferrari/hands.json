@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "break": {
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "chill:ferrari/transform"
+        }
+    },
+    "hurt": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "chill:ferrari/transform"
+        }
+    },
+    "name": "hands",
+    "description": "cars dont have hands why should you"
+}

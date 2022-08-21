@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"chill:icy/snowball",
+		"chill:icy/frostfeet",
+		"chill:icy/slowarea",
+		"chill:icy/spawn",
+		"chill:icy/strong",
+		"chill:icy/weak"
+	],
+	"icon": "minecraft:packed_ice",
+	"order": 10,
+	"impact": 2,
+	"name": "icy",
+	"description": "Elliot's origin"
+}

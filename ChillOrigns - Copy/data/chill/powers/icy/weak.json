@@ -1,0 +1,29 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:weakness",
+                    "duration": 40,
+                    "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 40,
+                    "amplifier": 1
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    }
+}

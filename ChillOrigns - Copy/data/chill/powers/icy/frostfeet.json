@@ -1,0 +1,22 @@
+{
+    "type": "origins:multiple",
+    "give":{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:iron_boots",
+            "amount": 1,
+            "tag": "{Unbreakable:1,Enchantments:[{id:frost_walker,lvl:2}]}",
+            "slot": 36
+        }
+    ]
+    },
+    "keep":{
+        "type": "origins:keep_inventory",
+        "slots":[
+            36
+        ]
+    },
+    "name": "Frosty Feet",
+    "description": "Freezes the water around you"
+}

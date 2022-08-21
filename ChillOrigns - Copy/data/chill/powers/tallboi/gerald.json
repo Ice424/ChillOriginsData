@@ -1,0 +1,36 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 6000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 6
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "summon silverfish"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon silverfish"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"summon silverfish"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"effect give @s strength 20 1 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"particle minecraft:explosion_emitter"
+            }
+        ]
+    },
+    "name": "sacrifice",
+    "description": "You gain strength and summon minions"
+}

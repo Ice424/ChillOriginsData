@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "chill:banan/regen",
+        "chill:banan/natural_regen",
+		"chill:banan/damage"
+	],
+	"icon": "minecraft:honey_block",
+	"order": 10,
+	"impact": 2,
+	"name": "banan",
+	"description": "Ethan's origin"
+}

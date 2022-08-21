@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 300,
+            "amplifier": 2,
+            "show_particles": false
+        }
+    },
+    "interval": 50,
+    "name": "car speed",
+    "description": "When you transform into a car you can go faster",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:ferrari/transform"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "chill:tallboi/gerald",
+        "chill:tallboi/snowball",
+        "chill:tallboi/tall"
+	],
+	"icon": "minecraft:snowball",
+	"order": 11,
+	"impact": 2,
+	"name": "Tall Boi",
+	"description": "Charlie's origin"
+}

@@ -1,0 +1,6 @@
+{
+    "type":"origins:modify_falling",
+    "take_fall_damage": false,
+    "name": "no fall damage",
+    "description": "like an insect you take no fall damage"
+}

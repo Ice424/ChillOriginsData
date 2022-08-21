@@ -1,0 +1,18 @@
+{
+    "type": "origins:modify_damage_taken",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:wooden_sword"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:attacker"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 2
+    },
+    "name": "stake",
+    "description": "you take extra damage from wooden stakes"
+}

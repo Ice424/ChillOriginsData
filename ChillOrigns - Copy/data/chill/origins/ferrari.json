@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"chill:ferrari/inventory",
+		"chill:ferrari/transform",
+		"chill:ferrari/speed",
+		"chill:ferrari/hands",
+		"chill:ferrari/shader",
+		"chill:ferrari/damage"
+	],
+	"icon": "minecraft:minecart",
+	"order": 10,
+	"impact": 2,
+	"name": "Ferrari F40",
+	"description": "Lucas's origin"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "container_type": "hopper",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "name": "damm boi hes paking",
+    "description": "you have 5 extra inventory slots whn you press your secondary ability"
+}

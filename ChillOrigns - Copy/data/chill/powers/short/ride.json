@@ -1,0 +1,8 @@
+{
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:mount" 
+    },
+    "name": "ride",
+    "description": "you can ride on any mob"
+}

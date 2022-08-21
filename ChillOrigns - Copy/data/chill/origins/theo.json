@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"chill:theo/day",
+		"chill:theo/night",
+		"chill:theo/summon",
+		"chill:theo/sword",
+		"chill:theo/sunglow"
+	],
+	"icon": "minecraft:nether_wart_block",
+	"order": 11,
+	"impact": 2,
+	"name": "The vampire",
+	"description": "Theo's origin (defiantly no stereotypes)"
+}
