@@ -8,7 +8,7 @@
         "type": "origins:target_action",
         "action": {
             "type": "origins:set_on_fire",
-            "duration": 0.5
+            "duration": 1
         }
     },
     "name": "crab game",
