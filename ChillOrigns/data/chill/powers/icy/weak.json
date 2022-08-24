@@ -25,5 +25,7 @@
     "condition": {
         "type": "origins:dimension",
         "dimension": "minecraft:the_nether"
-    }
+    },
+    "name": "too Hot",
+    "description": "places like the nether are to hot for you to function properly"
 }

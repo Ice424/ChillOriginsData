@@ -6,7 +6,7 @@
         {
             "item": "minecraft:iron_boots",
             "amount": 1,
-            "tag": "{Unbreakable:1,Enchantments:[{id:frost_walker,lvl:2}]}",
+            "tag": "{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1},{id:frost_walker,lvl:2}]}",
             "slot": 36
         }
     ]

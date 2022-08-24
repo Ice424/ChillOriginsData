@@ -5,7 +5,8 @@
 		"chill:icy/slowarea",
 		"chill:icy/spawn",
 		"chill:icy/strong",
-		"chill:icy/weak"
+		"chill:icy/weak",
+		"chill:icy/upgrade"
 	],
 	"icon": "minecraft:packed_ice",
 	"order": 10,

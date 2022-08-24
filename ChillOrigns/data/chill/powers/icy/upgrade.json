@@ -1,0 +1,57 @@
+{
+    "type": "origins:multiple",
+    "diamond": {
+        "type": "origins:item_on_item",
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_boots"
+            }
+        },
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:diamond_boots"
+            }
+        },
+        "result": {
+            "item":"minecraft:diamond_boots",
+            "tag": "{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1},{id:frost_walker,lvl:2}]}"
+        },
+        "on_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+        },
+        "using_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+        }
+    },
+    "netherite": {
+        "type": "origins:item_on_item",
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_boots"
+            }
+        },
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:netherite_ingot"
+            }
+        },
+        "result": {
+            "item":"minecraft:diamond_boots",
+            "tag": "{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1},{id:frost_walker,lvl:2}]}"
+        },
+        "on_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+        },
+        "using_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+        }
+    }
+}

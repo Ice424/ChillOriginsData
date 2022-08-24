@@ -24,7 +24,13 @@
     "interval": 20,
     "condition": {
         "type": "origins:biome",
-        "biome": "minecraft:ice_spikes"
-    }
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0
+        }
+    },
+    "name": "cold",
+    "description": "you thrive in cold biomes"
 }
 
