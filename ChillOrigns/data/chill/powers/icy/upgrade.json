@@ -53,5 +53,6 @@
         "type": "origins:consume",
         "amount": 1
         }
-    }
+    },
+    "hidden": true
 }
