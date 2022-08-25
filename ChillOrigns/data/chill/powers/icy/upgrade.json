@@ -32,7 +32,7 @@
         "on_item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "minecraft:iron_boots"
+                "item": "minecraft:diamond_boots"
             }
         },
         "using_item_condition": {
@@ -42,7 +42,7 @@
             }
         },
         "result": {
-            "item":"minecraft:diamond_boots",
+            "item":"minecraft:netherite_boots",
             "tag": "{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1},{id:frost_walker,lvl:2}]}"
         },
         "on_item_action": {

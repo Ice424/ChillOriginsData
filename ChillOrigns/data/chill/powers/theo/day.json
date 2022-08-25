@@ -27,7 +27,17 @@
     },
     "interval": 20,
     "condition": {
-        "type": "origins:exposed_to_sun"
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:invisibility",
+                "inverted": true
+            }
+        ]
     },
     "name": "day",
     "description": "the sun is bad avoid it at all costs"

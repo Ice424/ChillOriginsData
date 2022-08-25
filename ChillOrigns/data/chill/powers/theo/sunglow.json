@@ -5,7 +5,17 @@
     "green": 0.89019607843,
     "blue": 0.65098039215,
     "condition": {
-        "type": "origins:exposed_to_sun"
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:invisibility",
+                "inverted": true
+            }
+        ]
     },
     "name": "Sun glow",
     "description": "you glow in the sun for some reason"

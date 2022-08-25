@@ -23,7 +23,7 @@
             },
             {
                 "type": "origins:execute_command",
-                "command":"effect give @s invisibility 20 1 true"
+                "command":"effect give @s invisibility 20 0 true"
             },
             {
                 "type": "origins:execute_command",
