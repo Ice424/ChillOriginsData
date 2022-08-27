@@ -10,7 +10,7 @@
                     "duration": 100,
                     "amplifier": 1,
                     "show_particles": false,
-                    "show_icon": false
+                    "show_icon": true
                 }
             },
             {
@@ -20,7 +20,7 @@
                     "duration": 100,
                     "amplifier": 1,
                     "show_particles": false,
-                    "show_icon": false
+                    "show_icon": true
                 }
             }
         ]
