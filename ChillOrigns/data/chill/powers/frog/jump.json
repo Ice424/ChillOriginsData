@@ -9,8 +9,7 @@
         "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
     },
     "condition":{
-        "type":"origins:moving",
-        "inverted": true
+        "type":"origins:sneaking"
     },
     "name": "jump",
     "description": "by staying still you can jump high"
