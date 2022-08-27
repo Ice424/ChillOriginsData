@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:hero_of_the_village",
+            "duration": 200,
+            "amplifier": 0,
+            "show_particles": false
+        }
+    },
+    "interval": 100,
+    "name": "hero of the village",
+    "description": "you gain hero of the village whilst holding an emerald",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:emerald"
+            }
+        }
+    }
+}

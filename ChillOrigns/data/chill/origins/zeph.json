@@ -6,7 +6,8 @@
 		"chill:zeph/underwater",
 		"chill:zeph/summon",
 		"chill:zeph/friends",
-		"chill:zeph/turn"
+		"chill:zeph/turn",
+		"chill:zeph/hero"
 	],
 	"icon": "minecraft:gold_block",
 	"order": 11,

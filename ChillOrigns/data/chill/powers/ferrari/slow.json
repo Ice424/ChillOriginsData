@@ -12,5 +12,10 @@
     },
     "interval": 100,
     "name": "slowness",
-    "description": "Your slow der"
+    "description": "Your slow der",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:ferrari/transform",
+        "inverted": true
+    }
 }
