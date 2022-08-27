@@ -5,7 +5,8 @@
 		"chill:ferrari/speed",
 		"chill:ferrari/hands",
 		"chill:ferrari/shader",
-		"chill:ferrari/damage"
+		"chill:ferrari/damage",
+		"chill:ferrari/slow"
 	],
 	"icon": "minecraft:minecart",
 	"order": 10,

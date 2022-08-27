@@ -1,6 +1,6 @@
 {
     "type": "origins:active_self",
-    "cooldown": 50,
+    "cooldown": 100,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
@@ -26,7 +26,7 @@
     },
     "hit_action": {
         "type": "origins:execute_command",
-        "command": "data modify entity @e[limit=1, tag=tongue] Pos set from entity @s Pos"
+        "command": "tp @e[tag=tongue] @s"
     },
     "command_along_ray": "particle minecraft:crit",
     "command_step": 1,
