@@ -1,0 +1,33 @@
+{
+    "type": "origins:conditioned_restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 5
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 4
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 1
+    },
+    "condition": {
+    "type": "origins:biome",
+    "condition": {
+        "type": "origins:temperature",
+        "comparison": ">=",
+        "compare_to": 2
+    }
+},
+    "name": "Hot Blooded",
+	"description": "Growing up in a cold biome has caused you to be naturally hot blooded. Therefore wearing armor that gets hot fast (armor with a value higher than chainmail) in a hot biome (i.e: desert and Nether), will cause you to immediatly remove your armor."
+}

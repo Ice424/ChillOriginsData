@@ -1,0 +1,18 @@
+{
+	"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:apply_effect",
+    "effect": {
+        "effect": "minecraft:invisibility",
+        "duration": 20,
+        "amplifier": 0
+    }
+		},
+		"interval": 15,
+		"condition": {
+			"type": "origins:sneaking"
+		},
+
+	"name": "Fox Stealth",
+	"description": "After sneaking for a couple of seconds, you become camouflaged."
+}

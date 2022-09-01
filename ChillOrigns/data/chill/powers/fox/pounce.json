@@ -1,0 +1,15 @@
+{
+    "type": "origins:launch",
+    "cooldown": 200,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.fox.ambient",
+    "speed": 1,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+	"name": "Pounce",
+	"description": "You perform a great leap towards the direction you're facing."
+}

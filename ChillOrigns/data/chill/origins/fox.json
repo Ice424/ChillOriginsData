@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"chill:fox/fox_stealth",
+		"chill:fox/pounce",
+		"chill:fox/light_body",
+		"chill:fox/mighty_mouth",
+		"chill:fox/scram",
+		"origins:velvet_paws",
+		"chill:fox/mighty_paws",
+		"origins:cat_vision",
+		"chill:frog/fall",
+		"origins:carnivore",
+		"origins:more_exhaustion",
+		"chill:fox/hot_blooded",
+		"origins:no_shield",
+		"origins:fragile"
+	],
+	"icon": "minecraft:sweet_berries",
+	"order": 11,
+	"impact": 2,
+	"name": "Fox",
+	"description": "Quinn's origin (totally not stolen from the origins discord)"
+}
+

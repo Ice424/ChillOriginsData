@@ -1,0 +1,17 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.04,
+        "name": "Increased sprinting speed"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:health",
+    "comparison": "<",
+    "compare_to": 8
+    },
+    "name": "Scram!",
+	"description": "Whenever your health goes below 4 hearts, you gain a small speed boost."
+}
