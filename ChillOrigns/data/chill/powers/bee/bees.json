@@ -11,9 +11,29 @@
 		"continuous": true
 	},
 	"entity_action": {
-		"type": "origins:execute_command",
-		"permission_level": 4,
-		"command": "/summon area_effect_cloud ~ ~-0.5 ~ {Passengers:[{id:bee},{id:bee},{id:bee},{id:bee},{id:bee}]}"
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+                "command": "summon bee"
+			},
+			{
+				"type": "origins:execute_command",
+                "command": "summon bee"
+			},
+			{
+				"type": "origins:execute_command",
+                "command": "summon bee"
+			},
+			{
+				"type": "origins:execute_command",
+                "command": "summon bee"
+			},
+			{
+				"type": "origins:execute_command",
+                "command": "summon bee"
+			}
+		]
 	},
 	"name": "Bees!",
 	"description": "You can summon bees sometimes! But do NOT hurt them, this is a threat."
