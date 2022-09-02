@@ -1,0 +1,18 @@
+{
+    "type":"origins:invulnerability",
+    "damage_condition":{
+        "type":"origins:or",
+        "conditions":[
+            {
+                "type":"origins:name",
+                "name":"cactus"
+            },
+            {
+                "type":"origins:name",
+                "name":"sweetBerryBush"
+            }
+        ]
+    },
+    "name":"Plants",
+    "description":"You've learned how to move on dangerous plants without getting hurt"
+}

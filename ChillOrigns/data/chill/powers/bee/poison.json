@@ -1,0 +1,23 @@
+{
+  "type": "origins:attacker_action_when_hit",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:poison",
+        "duration": 100,
+        "amplifier": 2,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+      }
+    },
+    "chance": 0.1
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": false
+  },
+  "hidden": true
+}

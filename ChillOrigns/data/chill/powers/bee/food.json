@@ -1,0 +1,32 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:honey_bottle"
+		}
+	},
+	"hidden": true,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:strength",
+					"duration": 200,
+					"show_particles": false,
+					"amplifier": 0
+				}
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:speed",
+					"duration": 600,
+					"show_particles": false,
+					"amplifier": 0
+				}
+			}
+		]
+	}
+}

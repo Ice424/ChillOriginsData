@@ -1,0 +1,31 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 6000,
+    "key": {
+        "key": "key.sneak"
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 6
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @s speed 20 1 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"effect give @s invisibility 20 0 true"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"particle minecraft:explosion_emitter"
+            }
+        ]
+    },
+    "name": "disappear",
+    "description": "You disappear in a cloud of smoke"
+}

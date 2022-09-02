@@ -1,0 +1,30 @@
+{
+	"powers": [
+		"chill:bee/flight",
+		"origins:slow_falling",
+		"chill:bee/poisonous",
+		"chill:bee/poison",
+		"chill:bee/bloom",
+		"chill:bee/honey",
+		"chill:bee/food",
+		"chill:bee/hold",
+		"chill:bee/plant",
+		"chill:bee/lifespan",
+		"origins:water_vulnerability",
+		"chill:bee/nighttime",
+		"chill:bee/fire",
+		"chill:bee/hot",
+		"chill:bee/death",
+		"chill:bee/small",
+		"chill:bee/bees",
+		"chill:bee/particles",
+		"chill:bee/stronk",
+		"chill:bee/ghost",
+		"chill:bee/speed_jump"
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 7,
+	"impact": 2,
+	"name": "Evolved Bumblebee",
+	"description":"This is the Bumblebee origin, but better. More powers, more setbacks!"
+}

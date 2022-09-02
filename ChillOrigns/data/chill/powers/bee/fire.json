@@ -1,0 +1,22 @@
+{
+    "type":"origins:modify_damage_taken",
+    "name":"Flames",
+    "description":"You are much more flammable, which means you take more fire damage. Bee careful!",
+    "modifier":{
+        "value":2,
+        "operation":"multiply_total"
+    },
+    "damage_condition":{
+        "type":"origins:or",
+        "conditions":[
+            {
+                "type":"origins:name",
+                "name":"onFire"
+            },
+            {
+                "type":"origins:name",
+                "name":"inFire"
+            }
+        ]
+    }
+}

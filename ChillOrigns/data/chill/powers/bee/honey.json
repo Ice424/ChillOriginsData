@@ -1,0 +1,19 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "more:honey"
+				},
+				"inverted": true
+			},
+			{
+				"type": "origins:food"
+			}
+		]
+	},
+	"name": "No food",
+	"description": "You can not eat normal food. Only honey. Though, honey isn't exactly normal for you..."
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Climbing",
+	"description": "You learned to climb walls like other bugs.",
+    "type": "origins:climbing",
+    "hold_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "offset_x": 0.01,
+                "offset_z": 0.01,
+                "offset_y": 0
+            },
+            {
+                "type": "origins:block_collision",
+                "offset_x": -0.01,
+                "offset_z": -0.01,
+                "offset_y": 0
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:collided_horizontally"
+    }
+}

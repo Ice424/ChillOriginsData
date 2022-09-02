@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -18.0,
+    "operation": "addition"
+  },
+  "name": "Lifespan",
+  "description": "You have less health, because.. i don't even know, i needed more negative effects."
+}

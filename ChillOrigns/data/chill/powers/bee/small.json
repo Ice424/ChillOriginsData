@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:base 0.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale persist set true @s"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:execute_command",
+		"command": "scale reset @s"
+	},
+	"description": "You're half the size of a normal player haha short"
+}

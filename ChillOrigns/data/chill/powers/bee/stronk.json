@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+          "effect": "minecraft:strength",
+          "duration": 200,
+          "amplifier": 2,
+          "show_particles": false
+      }
+  },
+  "interval": 20,
+  "name": "stornk",
+  "description": "tiny hornet go burrrrrr"
+}

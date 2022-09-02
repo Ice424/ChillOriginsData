@@ -1,0 +1,14 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": { 
+			"effect": "minecraft:poison",
+			"amplifier": 3,
+			"duration": 50
+		}
+	},	
+	"cooldown": 100,
+	"name": "Poisonous",
+	"description": "When you hit someone, you poison them! Also, since your poison developed so much, its now also an automatic defence mechanism, meaning that when someone hits you, there's a 10% chance that they will get poisoned "
+}

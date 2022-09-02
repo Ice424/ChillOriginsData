@@ -1,0 +1,20 @@
+{
+	"type": "origins:active_self",
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 0
+	},
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"entity_action": {
+		"type": "origins:execute_command",
+		"permission_level": 4,
+		"command": "/summon area_effect_cloud ~ ~-0.5 ~ {Passengers:[{id:bee},{id:bee},{id:bee},{id:bee},{id:bee}]}"
+	},
+	"name": "Bees!",
+	"description": "You can summon bees sometimes! But do NOT hurt them, this is a threat."
+}
