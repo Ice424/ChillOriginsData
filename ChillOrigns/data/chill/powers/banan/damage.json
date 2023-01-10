@@ -5,9 +5,12 @@
         "projectile": "minecraft:arrow"
     },
     "modifier": {
-        "operation": "multiply_base_multiplicative",
+        "operation": "multiply_total_multiplicative",
         "value": 0.5
     },
     "name": "Hawkeye",
-    "description": "you have double damage with a bow"
+    "description": "you have double damage with a bow",
+        "condition": {
+        "type": "origins:exposed_to_sun"
+    }
 }
