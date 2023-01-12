@@ -2,7 +2,8 @@
 	"powers": [
         "chill:tallboi/gerald",
         "chill:tallboi/snowball",
-        "chill:tallboi/tall"
+        "chill:tallboi/tall",
+		"chill:tallboi/glow"
 	],
 	"icon": "minecraft:snowball",
 	"order": 11,
