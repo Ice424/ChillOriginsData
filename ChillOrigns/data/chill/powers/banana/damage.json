@@ -1,16 +1,15 @@
 {
-    "type": "origins:modify_damage_dealt",
-    "damage_condition": {
-        "type": "origins:projectile",
-        "projectile": "minecraft:arrow"
-    },
+    "type": "origins:attribute",
     "modifier": {
-        "operation": "multiply_total_multiplicative",
-        "value": 0.5
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 3,
+        "operation": "multiply_total"
     },
-    "name": "Hawkeye",
-    "description": "you have double damage with a bow",
+    
         "condition": {
-        "type": "origins:exposed_to_sun"
-    }
+            "type":"origins:submerged_in",
+            "fluid":"minecraft:water"
+        },
+    
+    "name": "double damage"
 }

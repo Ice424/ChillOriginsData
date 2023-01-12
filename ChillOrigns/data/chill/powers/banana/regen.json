@@ -5,15 +5,16 @@
         "effect": {
             "effect": "minecraft:regeneration",
             "duration": 80,
-            "amplifier": 1,
+            "amplifier": 2,
             "show_particles": false,
             "show_icon": true
         }
     },
     "interval": 20,
     "condition": {
-        "type": "origins:exposed_to_sun"
+        "type": "origins:submerged_in",
+        "fluid":"minecraft:water"
     },
-    "description": "you gain regen 2 in the sun",
+    "description": "you gain regen 2 in the water",
     "name": "regen"
 }

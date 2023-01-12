@@ -9,7 +9,13 @@
 		"chill:banana/nosleep2",
 		"chill:banana/regen",
 		"chill:banana/water_breathing",
-		"chill:banana/water_vision"
+		"chill:banana/water_vision",
+		"chill:banana/aquatic",
+		"chill:banana/breathfrompotions",
+		"chill:banana/debuff2",
+		"chill:banana/landconduit",
+		"chill:banana/likewater",
+		"chill:banana/speed"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,

@@ -1,0 +1,9 @@
+{
+    
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total",
+        "value":3
+    },
+    "hidden": true
+}

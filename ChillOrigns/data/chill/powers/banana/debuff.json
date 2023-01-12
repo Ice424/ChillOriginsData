@@ -3,7 +3,7 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:hunger",
+            "effect": "minecraft:slowness",
             "duration": 80,
             "amplifier": 1,
             "show_particles": false,
@@ -12,7 +12,6 @@
     },
     "interval": 20,
     "condition": {
-        "type": "origins:submerged_in",
-        "fluid":"minecraft:water"
+        "type": "origins:exposed_to_sky"
     }
 }
