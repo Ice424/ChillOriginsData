@@ -1,13 +1,16 @@
 {
 	"powers": [
-        "chill:watr planty thing/damage",
-	"chill:watr planty thing/debuff",
-	"chill:watr planty thing/funny spawn",
-	"chill:watr planty thing/natural_regen",
-	"chill:watr planty thing/nosleep",
-	"chill:watr planty thing/nosleep2",
-	"chill:watr planty thing/regen"
-	],
+		"chill:banana/aqua_affinity",
+		"chill:banana/damage",
+		"chill:banana/debuff",
+		"chill:banana/spawn",
+		"chill:banana/natural_regen",
+		"chill:banana/nosleep",
+		"chill:banana/nosleep2",
+		"chill:banana/regen",
+		"chill:banana/water_breathing",
+		"chill:banana/water_vision"
+		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
 	"impact": 2,
