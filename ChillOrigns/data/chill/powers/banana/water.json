@@ -1,0 +1,26 @@
+{
+    "type": "origins:multiple",
+    "Breathing": {
+        "type": "origins:water_breathing"
+    },
+    "vision" : {
+        "type": "origins:night_vision",
+        "strength": 1.0,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+            },
+        "active_by_default": true
+    },
+    "aqua_affinity": {
+        "type": "origins:aqua_affinity"
+    },
+    "no_sink": {
+        "type": "origins:like_water"
+    },
+    "land_conduit": {
+        "type": "origins:conduit_power_on_land"
+    },
+    "name": "you are Fish",
+    "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
+}

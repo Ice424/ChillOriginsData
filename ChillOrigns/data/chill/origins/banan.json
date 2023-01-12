@@ -1,21 +1,13 @@
 {
 	"powers": [
-		"chill:banana/aqua_affinity",
 		"chill:banana/damage",
 		"chill:banana/debuff",
 		"chill:banana/spawn",
 		"chill:banana/natural_regen",
 		"chill:banana/nosleep",
-		"chill:banana/nosleep2",
 		"chill:banana/regen",
 		"chill:banana/water_breathing",
-		"chill:banana/water_vision",
-		"chill:banana/aquatic",
-		"chill:banana/breathfrompotions",
-		"chill:banana/debuff2",
-		"chill:banana/landconduit",
-		"chill:banana/likewater",
-		"chill:banana/speed"
+		"chill:banana/water_vision"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
