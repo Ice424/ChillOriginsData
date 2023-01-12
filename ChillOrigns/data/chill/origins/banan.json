@@ -1,8 +1,12 @@
 {
 	"powers": [
-        "chill:banan/regen",
-        "chill:banan/natural_regen",
-		"chill:banan/damage"
+        "chill:watr planty thing/damage",
+	"chill:watr planty thing/debuff",
+	"chill:watr planty thing/funny spawn",
+	"chill:watr planty thing/natural_regen",
+	"chill:watr planty thing/nosleep",
+	"chill:watr planty thing/nosleep2",
+	"chill:watr planty thing/regen"
 	],
 	"icon": "minecraft:honey_block",
 	"order": 10,
