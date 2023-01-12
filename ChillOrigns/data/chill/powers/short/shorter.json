@@ -1,17 +1,50 @@
 {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "rising_action": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 0.25"
+    "type": "origins:multiple",
+    "name": "Shorter",
+    "description": "You can shrink even more",
+    "activation_time": {
+        "type": "origins:cooldown",
+        "cooldown": 200,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": "7"
+        }
     },
-    "falling_action": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 0.5"
+    "activation": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_activation_time"
+        },
+        "cooldown": 400,
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_activation_time",
+            "comparison": "==",
+            "compare_to": 0
+        }
     },
-    "condition": {
-        "type": "origins:sneaking"
-    },
-    "name": "shrink",
-    "description": "sneak to shrink"
+    "flight": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "scale set 3"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "scale set 1"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_activation_time",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
 }
