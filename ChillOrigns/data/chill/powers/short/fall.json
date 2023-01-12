@@ -1,6 +1,7 @@
 {
     "type":"origins:modify_falling",
-    "take_fall_damage": false,
+    "take_fall_damage": true,
+    "velocity": 0.5,
     "name": "no fall damage",
     "description": "like an insect you take no fall damage"
 }

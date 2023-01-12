@@ -34,11 +34,11 @@
         "interval": 10,
         "rising_action": {
             "type": "origins:execute_command",
-            "command": "scale set 3"
+            "command": "scale set 0.15"
         },
         "falling_action": {
             "type": "origins:execute_command",
-            "command": "scale set 1"
+            "command": "scale set 0.5"
         },
         "condition": {
             "type": "origins:resource",
