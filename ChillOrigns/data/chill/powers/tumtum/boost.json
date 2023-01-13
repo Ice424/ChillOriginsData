@@ -1,9 +1,31 @@
 {
     "type": "origins:active_self",
     "entity_action": {
-        "type": "add_velocity",
-        "z": 2,
-        "space": "local"
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_velocity",
+                "z": 2,
+                "space": "local"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": "minecraft:invisibility",
+                "duration": 200
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon cod"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon cod"
+            },
+            {
+                "type": "origins:execute_command",
+                "command":"particle minecraft:explosion_emitter"
+            }
+            ]
     },
     "hud_render": {
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
@@ -15,5 +37,5 @@
         "fluid": "minecraft:water"
     },
     "name": "Boost",
-    "description": "Boost yourself through the water"
+    "description": "Boost yourself through the water you also gain invisibility for 15 seconds"
 }
