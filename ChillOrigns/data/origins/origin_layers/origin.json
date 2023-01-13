@@ -2,7 +2,7 @@
   "replace": false,
   "origins": [
     "chill:icy",
-    "chill:zeph",
+    "chill:tumtum",
     "chill:test",
     "chill:banan",
     "chill:bigm",
@@ -12,6 +12,7 @@
     "chill:frog",
     "chill:tallboi",
     "chill:fox",
-    "chill:bee"
+    "chill:bee",
+    "chill:nightrunner"
   ]
 }

@@ -1,0 +1,2523 @@
+{
+    "name": "Throw Arrow",
+    "description": "While holding any arrow, you can use the attack key to throw it.",
+    "type": "origins:multiple",
+    "night_vision_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:night_vision\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:night_vision\"}"
+    },
+    "long_night_vision_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_night_vision\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_night_vision\"}"
+    },
+    "invisibility_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:invisibility\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:invisibility\"}"
+    },
+    "long_invisibility_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_invisibility\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_invisibility\"}"
+    },
+    "leaping_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:leaping\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:leaping\"}"
+    },
+    "long_leaping_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_leaping\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_leaping\"}"
+    },
+    "strong_leaping_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_leaping\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_leaping\"}"
+    },
+    "fire_resistance_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:fire_resistance\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:fire_resistance\"}"
+    },
+    "long_fire_resistance_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_fire_resistance\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+    },
+    "swiftness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:swiftness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:swiftness\"}"
+    },
+    "long_swiftness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_swiftness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_swiftness\"}"
+    },
+    "strong_swiftness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_swiftness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+    },
+    "slowness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slowness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:slowness\"}"
+    },
+    "long_slowness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_slowness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_slowness\"}"
+    },
+    "turtle_master_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:turtle_master\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:turtle_master\"}"
+    },
+    "long_turtle_master_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_turtle_master\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_turtle_master\"}"
+    },
+    "strong_turtle_master_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_turtle_master\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_turtle_master\"}"
+    },
+    "water_breathing_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:water_breathing\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:water_breathing\"}"
+    },
+    "long_water_breathing_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_water_breathing\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+    },
+    "healing_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:healing\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:healing\"}"
+    },
+    "strong_healing_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_healing\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_healing\"}"
+    },
+    "harming_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:harming\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:harming\"}"
+    },
+    "strong_harming_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_harming\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    "poison_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:poison\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:poison\"}"
+    },
+    "long_poison_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_poison\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_poison\"}"
+    },
+    "strong_poison_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_poison\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_poison\"}"
+    },
+    "regeneration_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:regeneration\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:regeneration\"}"
+    },
+    "long_regeneration_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_regeneration\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_regeneration\"}"
+    },
+    "strong_regeneration_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_regeneration\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+    },
+    "strength_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strength\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strength\"}"
+    },
+    "long_strength_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_strength\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_strength\"}"
+    },
+    "strong_strength_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_strength\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:strong_strength\"}"
+    },
+    "weakness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:weakness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:weakness\"}"
+    },
+    "long_weakness_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_weakness\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_weakness\"}"
+    },
+    "luck_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:luck\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:luck\"}"
+    },
+    "slow_falling_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slow_falling\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:slow_falling\"}"
+    },
+    "long_slow_falling_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_slow_falling\"}}}]"
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot",
+        "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+    },
+    "arrow_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition":
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient":
+                {
+                    "item": "arrow"
+                }
+            }
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "arrow",
+        "sound": "entity.arrow.shoot"
+    },
+    "spectral_arrow_arrow":
+    {
+        "type": "origins:fire_projectile",
+        "cooldown": 1,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition":
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient":
+                {
+                    "item": "spectral_arrow"
+                }
+            }
+        },
+        "count": 1,
+        "speed": 2,
+        "divergence": 0,
+        "entity_type": "spectral_arrow",
+        "sound": "entity.arrow.shoot"
+    },
+    "night_vision_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:night_vision\"}}}]"
+        }
+    },
+    "long_night_vision_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_night_vision\"}}}]"
+        }
+    },
+    "invisibility_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:invisibility\"}}}]"
+        }
+    },
+    "long_invisibility_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_invisibility\"}}}]"
+        }
+    },
+    "leaping_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:leaping\"}}}]"
+        }
+    },
+    "long_leaping_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_leaping\"}}}]"
+        }
+    },
+    "strong_leaping_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_leaping\"}}}]"
+        }
+    },
+    "fire_resistance_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:fire_resistance\"}}}]"
+        }
+    },
+    "long_fire_resistance_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_fire_resistance\"}}}]"
+        }
+    },
+    "swiftness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:swiftness\"}}}]"
+        }
+    },
+    "long_swiftness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_swiftness\"}}}]"
+        }
+    },
+    "strong_swiftness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_swiftness\"}}}]"
+        }
+    },
+    "slowness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slowness\"}}}]"
+        }
+    },
+    "long_slowness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_slowness\"}}}]"
+        }
+    },
+    "turtle_master_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:turtle_master\"}}}]"
+        }
+    },
+    "long_turtle_master_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_turtle_master\"}}}]"
+        }
+    },
+    "strong_turtle_master_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_turtle_master\"}}}]"
+        }
+    },
+    "water_breathing_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:water_breathing\"}}}]"
+        }
+    },
+    "long_water_breathing_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_water_breathing\"}}}]"
+        }
+    },
+    "healing_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:healing\"}}}]"
+        }
+    },
+    "strong_healing_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_healing\"}}}]"
+        }
+    },
+    "harming_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:harming\"}}}]"
+        }
+    },
+    "strong_harming_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_harming\"}}}]"
+        }
+    },
+    "poison_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:poison\"}}}]"
+        }
+    },
+    "long_poison_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_poison\"}}}]"
+        }
+    },
+    "strong_poison_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_poison\"}}}]"
+        }
+    },
+    "regeneration_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:regeneration\"}}}]"
+        }
+    },
+    "long_regeneration_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_regeneration\"}}}]"
+        }
+    },
+    "strong_regeneration_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_regeneration\"}}}]"
+        }
+    },
+    "strength_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strength\"}}}]"
+        }
+    },
+    "long_strength_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_strength\"}}}]"
+        }
+    },
+    "strong_strength_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:strong_strength\"}}}]"
+        }
+    },
+    "weakness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:weakness\"}}}]"
+        }
+    },
+    "long_weakness_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_weakness\"}}}]"
+        }
+    },
+    "luck_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:luck\"}}}]"
+        }
+    },
+    "slow_falling_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:slow_falling\"}}}]"
+        }
+    },
+    "long_slow_falling_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": ">=",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[nbt={SelectedItem:{id:\"minecraft:tipped_arrow\",tag:{Potion:\"minecraft:long_slow_falling\"}}}]"
+        }
+    },
+    "arrow_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition":
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient":
+                {
+                    "item": "arrow"
+                }
+            }
+        }
+    },
+    "spectral_arrow_consume":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action":
+        {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action":
+            {
+                "type": "origins:consume",
+                "amount": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "key":
+        {
+            "key": "key.attack",
+            "continuous": false
+        },
+        "condition":
+        {
+            "type": "origins:equipped_item",
+            "inverted": false,
+            "equipment_slot": "mainhand",
+            "item_condition":
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient":
+                {
+                    "item": "spectral_arrow"
+                }
+            }
+        }
+    }
+}
