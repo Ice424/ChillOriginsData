@@ -1,3 +1,4 @@
 {
-    "type":"origins:aquatic"
+    "type":"origins:aquatic",
+    "hidden":"true"
 }

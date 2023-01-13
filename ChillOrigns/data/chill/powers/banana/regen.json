@@ -11,10 +11,6 @@
         }
     },
     "interval": 20,
-    "condition": {
-        "type": "origins:submerged_in",
-        "fluid":"minecraft:water"
-    },
-    "description": "you gain regen 2 in the water",
+    "description": "you gain regen 3",
     "name": "regen"
 }

@@ -1,7 +1,15 @@
 {
     "type": "origins:multiple",
-    "Breathing": {
-        "type": "origins:water_breathing"
+    "Breathing": 
+    { "type":"origins:action_over_time",
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value":100}
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid":"minecraft:water"
     },
     "vision" : {
         "type": "origins:night_vision",

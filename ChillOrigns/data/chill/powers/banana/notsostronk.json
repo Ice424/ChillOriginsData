@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 300,
+            "amplifier": 1,
+            "show_particles": false
+        }
+    },
+    "interval": 50,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:banana/special",
+        "hidden":"true"
+    }
+}
