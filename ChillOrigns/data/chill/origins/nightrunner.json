@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"chill:nightrunner/charge",
+		"chill:nightrunner/double_jump",
+		"chill:nightrunner/side_step",
+		"chill:nightrunner/slip",
+		"chill:nightrunner/rogue_dash",
+		"chill:nightrunner/rogue_dash_particles",
+		"chill:nightrunner/knockback",
+		"chill:nightrunner/wall_run_2",
+		"chill:nightrunner/fall_break",
+		"chill:nightrunner/fall_break_recharge",
+		"chill:nightrunner/fall_break_resource",
+		"chill:nightrunner/throw_arrows",
+		"chill:nightrunner/rep",
+		"chill:nightrunner/frivolous_armor",
+		"chill:nightrunner/light_countdown",
+		"chill:nightrunner/grapple",
+		"chill:nightrunner/credits"
+	],
+	"icon": "minecraft:iron_sword",
+	"order": 10,
+	"impact": 2,
+	"name": "Nightrunner",
+	"description": "POV dying light players when the light dies"
+}

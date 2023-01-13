@@ -45,7 +45,7 @@
 					},
                     {
                         "type": "origins:execute_command",
-                        "command": "power grant @s blade:shake"
+                        "command": "power grant @s chill:shake"
                     }
 				]
 			},
@@ -96,7 +96,7 @@
 					},
                     {
                         "type": "origins:execute_command",
-                        "command": "power grant @s blade:shake"
+                        "command": "power grant @s chill:shake"
                     }
 				]
 			},
@@ -147,7 +147,7 @@
 					},
                     {
                         "type": "origins:execute_command",
-                        "command": "power grant @s blade:shake"
+                        "command": "power grant @s chill:shake"
                     }
 				]
 			},
@@ -198,7 +198,7 @@
 					},
                     {
                         "type": "origins:execute_command",
-                        "command": "power grant @s blade:shake"
+                        "command": "power grant @s chill:shake"
                     }
 				]
 			},

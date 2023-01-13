@@ -15,7 +15,7 @@
 				"type": "origins:resource",
 				"inverted": false,
 				"comparison": "!=",
-				"resource": "blade:wall_run_2_wall_resource",
+				"resource": "chill:wall_run_2_wall_resource",
 				"compare_to": 60
 			}
 		}
@@ -33,7 +33,7 @@
 				"type": "origins:resource",
 				"inverted": false,
 				"comparison": "!=",
-				"resource": "blade:wall_run_2_antifall_resource",
+				"resource": "chill:wall_run_2_antifall_resource",
 				"compare_to": 60
 			}
 		}
@@ -55,7 +55,7 @@
 								"type": "origins:resource",
 								"inverted": false,
 								"comparison": "!=",
-								"resource": "blade:wall_run_2_wall_resource",
+								"resource": "chill:wall_run_2_wall_resource",
 								"compare_to": 0
 							},
 							{
@@ -83,12 +83,12 @@
 						"type": "origins:and",
 						"actions": [{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2_wall_resource",
+								"resource": "chill:wall_run_2_wall_resource",
 								"change": -1
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2_antifall_resource",
+								"resource": "chill:wall_run_2_antifall_resource",
 								"change": -60
 							},
 							{
@@ -149,13 +149,13 @@
 								"conditions": [{
 										"type": "origins:resource",
 										"comparison": "!=",
-										"resource": "blade:wall_run_2_wall_resource",
+										"resource": "chill:wall_run_2_wall_resource",
 										"compare_to": 60
 									},
 									{
 										"type": "origins:resource",
 										"comparison": "!=",
-										"resource": "blade:wall_run_2_antifall_resource",
+										"resource": "chill:wall_run_2_antifall_resource",
 										"compare_to": 60
 									}
 								]
@@ -170,12 +170,12 @@
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2_wall_resource",
+								"resource": "chill:wall_run_2_wall_resource",
 								"change": 1
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2_antifall_resource",
+								"resource": "chill:wall_run_2_antifall_resource",
 								"change": 2
 							}
 						]
@@ -186,7 +186,7 @@
 		"condition": {
 			"type": "origins:resource",
 			"comparison": "==",
-			"resource": "blade:wall_run_2_toggle_resource",
+			"resource": "chill:wall_run_2_toggle_resource",
 			"compare_to": 1
 		}
 	},
@@ -258,7 +258,7 @@
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "_anblade:wall_run_2_antifall_resource",
+								"resource": "_anchill:wall_run_2_antifall_resource",
 								"change": -60
 							}
 						]
@@ -306,7 +306,7 @@
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2__antifall_resource",
+								"resource": "chill:wall_run_2__antifall_resource",
 								"change": -60
 							}
 						]
@@ -354,7 +354,7 @@
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2__antifall_resource",
+								"resource": "chill:wall_run_2__antifall_resource",
 								"change": -60
 							}
 						]
@@ -402,7 +402,7 @@
 							},
 							{
 								"type": "origins:change_resource",
-								"resource": "blade:wall_run_2__antifall_resource",
+								"resource": "chill:wall_run_2__antifall_resource",
 								"change": -60
 							}
 						]
@@ -476,14 +476,14 @@
 				{
 					"type": "origins:resource",
 					"comparison": "==",
-					"resource": "blade:wall_run_2_toggle_resource",
+					"resource": "chill:wall_run_2_toggle_resource",
 					"compare_to": 1
 				},
 				{
 					"type": "origins:resource",
 					"inverted": false,
 					"comparison": "!=",
-					"resource": "blade:wall_run_2_wall_resource",
+					"resource": "chill:wall_run_2_wall_resource",
 					"compare_to": 0
 				}
 			]
@@ -513,7 +513,7 @@
                 "actions": [
                     {
                         "type": "origins:change_resource",
-                        "resource": "blade:wall_run_2_toggle_resource",
+                        "resource": "chill:wall_run_2_toggle_resource",
                         "change": 1
                     }
                 ]
@@ -521,7 +521,7 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "blade:wall_run_2_toggle_resource",
+        "resource": "chill:wall_run_2_toggle_resource",
         "compare_to": 0,
         "comparison":"=="
     }
@@ -537,7 +537,7 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "blade:wall_run_2_toggle_resource",
+                    "resource": "chill:wall_run_2_toggle_resource",
                     "change": -1
                 }
             ]
@@ -545,7 +545,7 @@
 },
 "condition": {
     "type": "origins:resource",
-    "resource": "blade:wall_run_2_toggle_resource",
+    "resource": "chill:wall_run_2_toggle_resource",
     "compare_to": 1,
     "comparison":"=="
 }

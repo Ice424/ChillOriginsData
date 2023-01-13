@@ -1,0 +1,109 @@
+{   
+    "type": "origins:multiple",
+    "slip": {
+        "type": "origins:swimming",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {  
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    },
+    "name": "Slide",
+    "description": "a true parkour expert slide by holding sneak and sprint",
+    "slip_resource": {
+        "type": "origins:resource",
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 9,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_slip_resource",
+                "compare_to": 80,
+                "comparison": "==",
+                "inverted": true
+            }
+        },
+        "min": 0,
+        "max": 80,
+        "starting_value": 80
+    },
+    "debuff_1": {
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.25
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_slip_resource",
+            "compare_to": 60,
+            "comparison": "<="
+        }
+    },
+    "debuff_2": {
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_slip_resource",
+            "compare_to": 40,
+            "comparison": "<="
+        }
+    },
+    "debuff_3": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.999999999999999999999999999999
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_slip_resource",
+            "compare_to": 0,
+            "comparison": "=="
+        }
+    },
+    "charge_resource_down": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_slip_resource",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:swimming"
+                }
+            ]
+        },
+        "interval": 1
+        },
+        "charge_resource_up": {
+            "type": "origins:action_over_time",
+            "entity_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_slip_resource",
+                "change": 1
+            },
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:swimming",
+                        "inverted": true
+                    }
+                ]
+            },
+            "interval": 1
+            }
+    }

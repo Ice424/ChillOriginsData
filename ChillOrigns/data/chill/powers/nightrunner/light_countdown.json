@@ -1,0 +1,96 @@
+{
+    "type": "origins:multiple",
+    "name": "Infection",
+    "description": "Once you enter light level 5 or lower, a 2 minute timer will begin to tick down. Entering a light source will reset the timer, but if you don't make it in time, you will begin to take poison damage, until you either reach a light source, or die.",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 4800,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": "1",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "chill:light_countdown_resource",
+                "comparison": "==",
+                "compare_to": 4800,
+                "inverted": true
+            }
+        }
+    }, 
+    "resource_countdown_nether": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "chill:light_countdown_resource",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.2
+        },
+        "interval": 1
+    },
+    "resource_countdown_overworld_end": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "chill:light_countdown_resource",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.11111111
+        },
+        "interval": 1
+    },
+    "resource_reset_overworld_end": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "chill:light_countdown_resource",
+            "change": 4800
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.11111111
+        },
+        "interval": 1
+    },
+    "resource_reset_nether": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "chill:light_countdown_resource",
+            "change": 4800
+        },
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.2
+        },
+        "interval": 1
+    },
+    "when_bar_runs_out": {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_source": {
+            "name": "magic",
+            "unblockable": true,
+            "bypasses_armor": true
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "chill:light_countdown_resource",
+            "compare_to": 0,
+            "comparison": "=="
+        }
+    }
+}
