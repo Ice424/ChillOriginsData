@@ -1,0 +1,30 @@
+{
+    "type": "origins:target_action_on_hit",
+    "name": "Knockback",
+    "description": "Your knockback is increased",
+    "cooldown": 10,
+    "hud_render":
+    {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "entity_action":
+    {
+        "type": "origins:and",
+        "actions":
+		[
+            {
+                "type": "origins:add_velocity",
+                "space": "world",
+                "set": false,
+                "y": 0.1
+            },
+            {
+                "type": "origins:add_velocity",
+                "space": "velocity_horizontal_normalized",
+                "set": false,
+                "z": 1
+            }
+        ]
+    }
+}

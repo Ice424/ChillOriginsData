@@ -1,0 +1,38 @@
+{
+    "type": "origins:stacking_status_effect",
+    "condition": {
+        "type":"origins:and",
+        "conditions": [
+            {
+                "type": "origins:sprinting"
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "blade:swords"
+                }
+                }
+            },
+            {
+                "type": "origins:swimming",
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Charge",
+    "description": "Strike first, strike hard, and win gloriously. Gain swiftness while holding a sword.",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:speed",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false,
+        "amplifier": 1
+    }   
+}

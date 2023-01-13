@@ -1,0 +1,38 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:slow_falling",
+                    "duration": 10,
+                    "amplifier": 0,
+                    "show_icon": false,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "*:fall_break_resource",
+                "change": -2
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [{
+        "type": "origins:resource",
+        "resource": "*:fall_break_resource",
+        "comparison": ">",
+        "compare_to": 0
+        },
+    {
+        "type": "origins:sneaking"
+    }]
+    },
+    "interval": 1,
+		"name": "Fall Break",
+	"description": "Press the sneak key to stop your fall."
+}
