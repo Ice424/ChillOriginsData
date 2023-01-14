@@ -1,9 +1,14 @@
 {
 	"powers": [
+		"chill:tumtum/anvil",
+		"chill:tumtum/boost",
+		"chill:tumtum/crafting",
+		"chill:tumtum/enchant",
+		"chill:tumtum/water"
 	],
-	"icon": "minecraft:raw_salmon",
+	"icon": "minecraft:cod",
 	"order": 11,
 	"impact": 2,
 	"name": "Tum Tum",
-	"description": "Funny Fish (Zeph's origin)"
+	"description": "FUNNY FISH"
 }

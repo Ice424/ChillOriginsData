@@ -3,18 +3,17 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:regeneration",
+            "effect": "minecraft:slowness",
             "duration": 80,
-            "amplifier": 2,
+            "amplifier": 1,
             "show_particles": false,
-            "show_icon": true
+            "show_icon": false
         }
     },
     "interval": 20,
     "condition": {
         "type": "origins:submerged_in",
-        "fluid":"minecraft:water"
-    },
-    "description": "you gain regen 2 in the water",
-    "name": "regen"
+        "fluid":"minecraft:water",
+        "inverted": true
+    }
 }

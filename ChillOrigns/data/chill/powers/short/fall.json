@@ -1,7 +1,10 @@
 {
-    "type":"origins:modify_falling",
-    "take_fall_damage": true,
-    "velocity": 0.1,
-    "name": "reduced fall damage",
-    "description": "like an insect you take less fall damage"
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:from_falling"
+    },
+    "modifier": {
+        "operation": "add_base_late",
+        "value": -3.5
+    }
 }

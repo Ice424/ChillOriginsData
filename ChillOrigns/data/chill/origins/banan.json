@@ -1,16 +1,12 @@
 {
 	"powers": [
-		"chill:banana/aquatic",
-		"chill:banana/health",
-		"chill:banana/notsostronk",
-		"chill:banana/nosleep",
+		"chill:banana/damage",
+		"chill:banana/debuff",
+		"chill:banana/spawn",
 		"chill:banana/natural_regen",
+		"chill:banana/nosleep",
 		"chill:banana/regen",
-		"chill:banana/special",
-		"chill:banana/stronk",
-		"chill:banana:stronk2",
-		"chill:banana/water",
-		"chill:banana/watrspeed"
+		"chill:banana/water"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
