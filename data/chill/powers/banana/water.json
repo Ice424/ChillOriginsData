@@ -4,13 +4,7 @@
         "type": "origins:water_breathing"
     },
     "vision" : {
-        "type": "origins:night_vision",
-        "strength": 1.0,
-        "condition": {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
-            },
-        "active_by_default": true
+        "type":"water_vision"
     },
     "aqua_affinity": {
         "type": "origins:aqua_affinity"

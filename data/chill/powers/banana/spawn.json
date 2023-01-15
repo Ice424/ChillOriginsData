@@ -1,8 +1,0 @@
-{
-    "type": "origins:starting_equipment",
-    "stacks": [
-        {
-            "item": "minecraft:trident"
-        }
-    ]
-}
