@@ -1,10 +1,18 @@
 {
-    "type": "origins:multiple",
-    "breathing": {
-        "type": "origins:water_breathing"
-    },
+    
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": 100
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid":"minecraft:water"
+        },
+    
     "vision" : {
-        "type":"water_vision"
+        "type":"origins:water_vision"
     },
     "aqua_affinity": {
         "type": "origins:aqua_affinity"
