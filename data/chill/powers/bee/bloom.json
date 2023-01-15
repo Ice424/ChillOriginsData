@@ -62,10 +62,10 @@
             "type":"origins:in_tag",
             "tag":"minecraft:flowers"
         },
-        "radius":"9",
+        "radius":"6",
         "shape":"cube",
         "comparison":">=",
-        "compare_to":9
+        "compare_to":1
     },
     "name":"Bloom",
     "description":"Have you ever wanted to find an excuse to just chill on a flower field?"

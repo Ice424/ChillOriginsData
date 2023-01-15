@@ -5,13 +5,16 @@
         "actions": [
             {
                 "type": "origins:add_velocity",
-                "z": 2,
+                "z": 4,
                 "space": "local"
             },
             {
                 "type": "origins:apply_effect",
-                "effect": "minecraft:invisibility",
-                "duration": 200
+                "effect": {
+                    "effect": "minecraft:invisibility",
+                    "duration": 20,
+                    "amplifier": 0
+                }
             },
             {
                 "type": "origins:execute_command",

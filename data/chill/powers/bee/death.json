@@ -5,7 +5,7 @@
         "actions":[
             {
                 "type":"origins:execute_command",
-                "command":"kill @p[distance=1..,sort=nearest]",
+                "command":"kill @p[distance=1,sort=nearest]",
                 "permission_level":4
             },
             {
