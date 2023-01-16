@@ -12,14 +12,16 @@
             "fluid": "minecraft:water"
         }
     },
+        "aqua_affinity": {
+        "type": "origins:aqua_affinity"
+    },
     "vision" : {
         "type": "origins:night_vision",
-        "strength": 1.0,
+        "strength": 0.6,
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
-            },
-        "active_by_default": true
+        }
     },
     "swim_speed": {
             "type": "origins:modify_swim_speed",
@@ -28,6 +30,33 @@
             "value": 0.05
         }
     },
+<<<<<<< HEAD
+=======
+    "breathing2": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 2,
+            "source": {
+                "name": "Drowning on land",
+                "bypasses_armor": true
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water",
+            "inverted": true
+        }
+    },
+    "no_sink": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid":"minecraft:water"
+        }
+    },
+>>>>>>> a42b81bc1662bd6cec0c52cd41f731daa34142eb
     "name": "you are Fish",
     "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
 }
