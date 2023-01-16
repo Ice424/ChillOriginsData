@@ -5,7 +5,7 @@
         "effect": {
             "effect": "minecraft:strength",
             "duration": 300,
-            "amplifier": 3,
+            "amplifier": 2,
             "show_particles": false
         }
     },

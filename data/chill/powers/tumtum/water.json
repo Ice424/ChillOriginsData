@@ -28,23 +28,6 @@
             "value": 0.05
         }
     },
-    "breathing2": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:damage",
-            "amount": 2,
-            "source": {
-                "name": "Drowning on land",
-                "bypasses_armor": true
-            }
-        },
-        "interval": 20,
-        "condition": {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water",
-            "inverted": true
-        }
-    },
     "name": "you are Fish",
     "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
 }
