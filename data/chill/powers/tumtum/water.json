@@ -12,14 +12,16 @@
             "fluid": "minecraft:water"
         }
     },
+        "aqua_affinity": {
+        "type": "origins:aqua_affinity"
+    },
     "vision" : {
         "type": "origins:night_vision",
-        "strength": 1.0,
+        "strength": 0.6,
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
-            },
-        "active_by_default": true
+        }
     },
     "swim_speed": {
             "type": "origins:modify_swim_speed",
@@ -43,6 +45,13 @@
             "type": "origins:submerged_in",
             "fluid": "minecraft:water",
             "inverted": true
+        }
+    },
+    "no_sink": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid":"minecraft:water"
         }
     },
     "name": "you are Fish",

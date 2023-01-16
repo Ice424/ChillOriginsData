@@ -12,7 +12,7 @@
         },
     
     "vision" : {
-        "type":"origins:water_vision"
+        "type":"origins:water_vision" 
     },
     "aqua_affinity": {
         "type": "origins:aqua_affinity"
@@ -26,8 +26,8 @@
     "Swim_speed": {
             "type": "origins:modify_swim_speed",
         "modifier": {
-            "operation": "set_total",
-            "value": 5
+            "operation": "addition",
+            "value": 0.005
         }
     },
     "aquatic": {
