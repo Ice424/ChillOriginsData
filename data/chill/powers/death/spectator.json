@@ -1,0 +1,11 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:execute_command",
+        "command": "defaultgamemode @s"
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "gamemode spectator"
+    }
+}
