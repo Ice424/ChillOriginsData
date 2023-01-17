@@ -1,0 +1,8 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "scorboard objectives add health health"
+    },
+    "execute_chosen_when_orb": true
+}
