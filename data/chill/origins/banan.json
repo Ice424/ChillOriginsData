@@ -10,7 +10,7 @@
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
-	"impact": 2,
+	"impact": 3,
 	"name": "banan",
 	"description": "Ethan's origin"
 }

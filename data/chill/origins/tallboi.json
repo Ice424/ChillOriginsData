@@ -7,7 +7,7 @@
 	],
 	"icon": "minecraft:snowball",
 	"order": 11,
-	"impact": 2,
+	"impact": 3,
 	"name": "Tall Boi",
 	"description": "Charlie's origin"
 }
