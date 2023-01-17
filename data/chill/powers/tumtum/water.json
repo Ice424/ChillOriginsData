@@ -30,6 +30,8 @@
             "value": 0.05
         }
     },
+<<<<<<< HEAD
+=======
     "breathing2": {
         "type": "origins:action_over_time",
         "entity_action": {
@@ -54,6 +56,7 @@
             "fluid":"minecraft:water"
         }
     },
+>>>>>>> a42b81bc1662bd6cec0c52cd41f731daa34142eb
     "name": "you are Fish",
     "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
 }

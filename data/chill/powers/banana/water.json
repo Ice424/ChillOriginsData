@@ -20,21 +20,19 @@
     "no_sink": {
         "type": "origins:like_water"
     },
-    "land_conduit": {
-        "type": "origins:conduit_power_on_land"
-    },
     "Swim_speed": {
             "type": "origins:modify_swim_speed",
         "modifier": {
             "operation": "addition",
+<<<<<<< HEAD
+            "value": 0.05
+=======
             "value": 0.005
+>>>>>>> a42b81bc1662bd6cec0c52cd41f731daa34142eb
         }
     },
     "aquatic": {
         "type":"origins:aquatic"
-    },
-    "air": {
-        "type":"origins:air_from_potions"
     },
     "name": "you are Fish",
     "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
