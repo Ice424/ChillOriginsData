@@ -24,15 +24,29 @@
             "type": "origins:modify_swim_speed",
         "modifier": {
             "operation": "addition",
-<<<<<<< HEAD
             "value": 0.05
-=======
-            "value": 0.005
->>>>>>> a42b81bc1662bd6cec0c52cd41f731daa34142eb
         }
     },
     "aquatic": {
         "type":"origins:aquatic"
+    },
+    "buff":{
+        "type":"origins:action_over_time",
+        "effect":"minecraft:strength",
+                    "duration":10000000000000,
+                    "amplifier": 3,
+                    "show_particles": false,
+                    "show_icon": true
+    },
+    "toggle":{
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "retain_state": true,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "name": "Stronk",
+        "description": "You slow but Stronk"
     },
     "name": "you are Fish",
     "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
