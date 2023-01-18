@@ -7,5 +7,11 @@
     "falling_action": {
         "type": "origins:execute_command",
         "command": "gamemode spectator"
+    },
+    "condition": {
+        "type": "origins:execute_command",
+        "command": "execute if score @p[tag!=death, distance=64] health",
+        "comparison": "<=",
+        "compare_to": 4
     }
 }
