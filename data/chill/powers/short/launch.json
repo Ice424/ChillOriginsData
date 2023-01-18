@@ -29,14 +29,14 @@
             "compare_to": 0
         }
     },
-    "flight": {
+    "fall": {
         "type": "origins:action_over_time",
-        "interval": 10,
-        "rising_action": {
+        "interval": 5, 
+            "rising_action": {
             "type": "origins:add_velocity",
             "y": 2
         },
-        "falling_action": {
+        "entity_action": {
             "type": "origins:set_fall_distance",
             "fall_distance": 0
         },

@@ -10,7 +10,7 @@
 	],
 	"icon": "minecraft:packed_ice",
 	"order": 10,
-	"impact": 2,
+	"impact": 3,
 	"name": "icy",
 	"description": "Elliot's origin"
 }

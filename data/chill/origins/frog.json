@@ -7,7 +7,7 @@
 	],
 	"icon": "minecraft:slime_block",
 	"order": 10,
-	"impact": 2,
+	"impact": 3,
 	"name": "Greg The Frog",
 	"description": "Ethan's origin"
 }

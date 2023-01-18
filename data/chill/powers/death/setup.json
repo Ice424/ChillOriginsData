@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+                "command": "scorboard objectives add health health"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "gamemode spectator @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "tag give @s death"
+			}
+		]
+    },
+    "entity_action_lost": {
+        "type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "defaultgamemode @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "tag remove @s death"
+			}
+		]
+    },
+    "execute_chosen_when_orb": true
+}

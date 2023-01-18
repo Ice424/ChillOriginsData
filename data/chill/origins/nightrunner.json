@@ -20,7 +20,7 @@
 	],
 	"icon": "minecraft:iron_sword",
 	"order": 10,
-	"impact": 2,
+	"impact": 3,
 	"name": "Nightrunner",
 	"description": "POV dying light players when the light dies"
 }

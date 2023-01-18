@@ -24,7 +24,7 @@
 	],
 	"icon": "minecraft:honeycomb",
 	"order": 7,
-	"impact": 2,
+	"impact": 3,
 	"name": "Evolved Bumblebee",
 	"description":"This is the Bumblebee origin, but better. More powers, more setbacks!"
 }

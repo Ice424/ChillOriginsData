@@ -1,0 +1,10 @@
+{
+	"powers": [
+        "chill:death/setup"
+    ],
+	"icon": "minecraft:skeleton_skull",
+	"order": 10,
+	"impact": 3,
+	"name": "Death",
+	"description": "You watch from above picking on those who are about to die"
+}
