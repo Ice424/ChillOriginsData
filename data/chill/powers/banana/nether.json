@@ -1,0 +1,16 @@
+{
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 100,
+        "source": {
+            "name": "onFire",
+            "fire": true,
+            "bypasses_armor": true,
+            "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:nether"
+                
+            }
+        }
+    }
+}
