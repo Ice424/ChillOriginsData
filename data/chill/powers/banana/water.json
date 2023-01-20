@@ -29,15 +29,7 @@
     },
     "aquatic": {
         "type":"origins:aquatic"
-    },
-    "buff":{
-        "type":"origins:action_over_time",
-        "effect":"minecraft:strength",
-                    "duration":10000000000000,
-                    "amplifier": 3,
-                    "show_particles": false,
-                    "show_icon": true
-    },
+        },
     "toggle":{
         "type": "origins:toggle",
         "active_by_default": false,

@@ -4,7 +4,7 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:resistance",
-            "duration": 300,
+            "duration": 3
             "amplifier": 3,
             "show_particles": false
         }
