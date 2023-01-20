@@ -1,0 +1,9 @@
+{
+	"powers": [
+	],
+	"icon": "minecraft:health_potion",
+	"order": 12,
+	"impact": 3,
+	"name": "Support",
+	"description": "Overwat referance? (idk it sounded like a support)"
+}
