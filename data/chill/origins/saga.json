@@ -1,0 +1,12 @@
+{
+	"powers": [
+        "chill:saga/fuel",
+        "chill:saga/jetpack",
+        "chill:saga/refuel"
+	],
+	"icon": "minecraft:fern",
+	"order": 10,
+	"impact": 3,
+	"name": "Plant Thing",
+	"description": "Saaagaaaa"
+}
