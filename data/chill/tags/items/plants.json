@@ -1,0 +1,29 @@
+{
+    "values": [
+        "#minecraft:fox_food",
+        "#minecraft:leaves",
+        "#minecraft:flowers",
+        "#minecraft:saplings",
+        "#minecraft:wart_blocks",
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "minecraft:sugar_cane",
+        "minecraft:cactus",
+        "minecraft:twisting_vines",
+        "minecraft:weeping_vines",
+        "minecraft:vine",
+        "minecraft:warped_roots",
+        "minecraft:crimson_roots",
+        "minecraft:hanging_roots",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:brown_mushroom_block",
+        "minecraft:red_mushroom_block",
+        "minecraft:pumpkin",
+        "minecraft:melon",
+        "minecraft:beetroot_seeds",
+        "minecraft:melon_seeds",
+        "minecraft:seagrass",
+        "minecraft:wheat_seeds"
+    ]
+}

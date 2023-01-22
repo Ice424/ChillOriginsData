@@ -22,14 +22,9 @@
         "equipment_slot": "offhand",
         "item_condition": {
           "type": "origins:ingredient",
-          "ingredient": [
-            {
-              "tag": "minecraft:leaves"
-            },
-            {
-              "tag": "minecraft:flowers"
-            }
-          ]
+          "ingredient": {
+            "tag": "chill:plants"
+          }
         }
       },
       {
