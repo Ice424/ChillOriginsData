@@ -2,8 +2,8 @@
     "type": "origins:self_glow",
     "use_teams": false,
     "red": 1,
-    "green": 0,
-    "blue": 0.68235294117,
+    "green": 0.35,
+    "blue": 0,
     "name": "Trafic cone",
     "description": "you glow orange"
 }

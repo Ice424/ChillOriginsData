@@ -1,5 +1,14 @@
 {
     "type": "origins:action_over_time",
+        "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 300,
+            "amplifier": 2,
+            "show_particles": false
+        }
+    },
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
@@ -8,6 +17,10 @@
             "amplifier": 2,
             "show_particles": false
         }
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "effect clear @s"
     },
     "interval": 50,
     "name": "car speed",

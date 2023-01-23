@@ -4,7 +4,14 @@
 		"chill:tumtum/boost",
 		"chill:tumtum/crafting",
 		"chill:tumtum/enchant",
-		"chill:tumtum/water"
+		"origins:water_breathing",
+		"origins:waer_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,

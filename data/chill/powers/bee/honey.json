@@ -5,7 +5,7 @@
 		"conditions": [{
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "more:honey"
+					"tag": "chill:honey"
 				},
 				"inverted": true
 			},
