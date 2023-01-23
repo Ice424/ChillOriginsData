@@ -1,5 +1,8 @@
 {
 	"powers": [
+		"chill:support/breathing",
+		"chill:support/buff",
+		"chill:support/damage"
 	],
 	"icon": "minecraft:health_potion",
 	"order": 12,
