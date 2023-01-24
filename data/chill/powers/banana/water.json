@@ -1,45 +1,32 @@
 {
-    
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:gain_air",
-            "value": 100
-        },
-        "interval": 20,
-        "condition": {
-            "type": "origins:submerged_in",
-            "fluid":"minecraft:water"
-        },
-    
-    "vision" : {
-        "type":"origins:water_vision" 
-    },
-    "aqua_affinity": {
-        "type": "origins:aqua_affinity"
-    },
-    "no_sink": {
-        "type": "origins:like_water"
-    },
-    "Swim_speed": {
-            "type": "origins:modify_swim_speed",
-        "modifier": {
-            "operation": "addition",
-            "value": 0.05
+    "type": "origins:action_over_time",
+        "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 300,
+            "amplifier": 2,
+            "show_particles": false
         }
     },
-    "aquatic": {
-        "type":"origins:aquatic"
-        },
-    "toggle":{
-        "type": "origins:toggle",
-        "active_by_default": false,
-        "retain_state": true,
-        "key": {
-            "key": "key.origins.primary_active"
-        },
-        "name": "Stronk",
-        "description": "You slow but Stronk"
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 300,
+            "amplifier": 2,
+            "show_particles": false
+        }
     },
-    "name": "you are Fish",
-    "description": "it gives you all the merling powers i don't want 100 json files in very fish origin"
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "effect clear @s"
+    },
+    "interval": 50,
+    "name": "Water buffs",
+    "description": "You gain buffs in ",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:banana/toggle"
+    }
 }

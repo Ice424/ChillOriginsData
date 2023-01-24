@@ -34,30 +34,6 @@
         "max": 80,
         "starting_value": 80
     },
-    "debuff_1": {
-        "modifier": {
-            "operation": "multiply_total",
-            "value": -0.25
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_slip_resource",
-            "compare_to": 60,
-            "comparison": "<="
-        }
-    },
-    "debuff_2": {
-        "modifier": {
-            "operation": "multiply_total",
-            "value": -0.5
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_slip_resource",
-            "compare_to": 40,
-            "comparison": "<="
-        }
-    },
     "debuff_3": {
         "type": "origins:modify_swim_speed",
         "modifier": {

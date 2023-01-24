@@ -1,12 +1,7 @@
 {
 	"powers": [
-		"chill:banana/damage",
-		"chill:banana/debuff",
-		"chill:banana/spawn",
-		"chill:banana/natural_regen",
 		"chill:banana/nosleep",
-		"chill:banana/regen",
-		"chill:banana/water"
+		"chill:banana/toggle"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
