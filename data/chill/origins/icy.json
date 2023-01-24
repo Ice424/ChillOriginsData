@@ -6,7 +6,8 @@
 		"chill:icy/spawn",
 		"chill:icy/strong",
 		"chill:icy/weak",
-		"chill:icy/upgrade"
+		"chill:icy/upgrade",
+		"chill:icy/hat"
 	],
 	"icon": "minecraft:packed_ice",
 	"order": 10,

@@ -2,7 +2,7 @@
     "type": "origins:starting_equipment",
     "stack": {
             "item": "carved_pumpkin",
-            "tag": "{CustomModelData:2}",
+            "tag": "{CustomModelData:3}",
             "slot": 39
         }
 }

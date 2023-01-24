@@ -4,13 +4,13 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:slowness",
-            "duration": 200,
+            "duration": 50,
             "amplifier": 1,
             "show_particles": false,
             "show_icon": false
         }
     },
-    "interval": 100,
+    "interval": 20,
     "name": "slowness",
     "description": "Your slow der",
     "condition": {
