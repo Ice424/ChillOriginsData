@@ -27,9 +27,16 @@
             "change": -1
         },
         "condition": {
-            "type": "origins:brightness",
-            "comparison": "<=",
-            "compare_to": 0.2
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:offset",
+                "condition": {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.2
+                },
+                "y": -1
+            }
         },
         "interval": 1
     },
@@ -41,9 +48,16 @@
             "change": -1
         },
         "condition": {
-            "type": "origins:brightness",
-            "comparison": "<=",
-            "compare_to": 0.11111111
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:offset",
+                "condition": {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.11111111
+                },
+                "y": -1
+            }
         },
         "interval": 1
     },
@@ -55,9 +69,16 @@
             "change": 4800
         },
         "condition": {
-            "type": "origins:brightness",
-            "comparison": ">=",
-            "compare_to": 0.11111111
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:offset",
+                "condition": {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.11111111
+                },
+                "y": -1
+            }
         },
         "interval": 1
     },
@@ -69,9 +90,16 @@
             "change": 4800
         },
         "condition": {
-            "type": "origins:brightness",
-            "comparison": ">=",
-            "compare_to": 0.2
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:offset",
+                "condition": {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.2
+                },
+                "y": -1
+            }
         },
         "interval": 1
     },
