@@ -1,5 +1,0 @@
-{
-    "type": "origins:disable_regen",
-    "name": "no regen",
-    "description": "you cant use \"natural_regen\""
-}

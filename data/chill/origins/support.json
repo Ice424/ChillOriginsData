@@ -4,7 +4,7 @@
 		"chill:support/buff",
 		"chill:support/damage"
 	],
-	"icon": "minecraft:health_potion",
+	"icon": "minecraft:potion",
 	"order": 12,
 	"impact": 3,
 	"name": "Support",

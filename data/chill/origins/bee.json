@@ -4,14 +4,14 @@
 		"origins:slow_falling",
 		"chill:bee/poisonous",
 		"chill:bee/poison",
-		"chill:bee/bloom",
+		"chill:bee/high",
 		"chill:bee/honey",
 		"chill:bee/food",
 		"chill:bee/hold",
 		"chill:bee/plant",
 		"chill:bee/lifespan",
 		"origins:water_vulnerability",
-		"chill:bee/nighttime",
+		"chill:bee/stoned",
 		"chill:bee/fire",
 		"chill:bee/hot",
 		"chill:bee/death",
@@ -25,6 +25,6 @@
 	"icon": "minecraft:honeycomb",
 	"order": 7,
 	"impact": 3,
-	"name": "Evolved Bumblebee",
-	"description":"This is the Bumblebee origin, but better. More powers, more setbacks!"
+	"name": "murder hornet 5000",
+	"description":"i am the government i live in your floors and write you laws"
 }
