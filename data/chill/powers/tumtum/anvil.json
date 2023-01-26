@@ -21,7 +21,5 @@
             }
         ]
     },
-    "hidden": true,
-    "name": "friends",
-    "description": "your friends with the village, don't harm their defenders"
+    "hidden": true
 }
