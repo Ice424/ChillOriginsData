@@ -9,13 +9,13 @@ it may not idk why
 This also requires a reasource pack that can be found here: https://github.com/Ice424/ChillOriginsReasources/tree/main
 
 Origin List:
-Banana
-Bee
-BigM
-Death
-Farrari
-Fox (will be removed)
-Frog
+1.  Banana
+2. Bee
+3. BigM
+4. Death
+5. Farrari
+6. Fox (will be removed)
+7. Frog
 Icy
 Nightrunner
 SAAAGAAAA
