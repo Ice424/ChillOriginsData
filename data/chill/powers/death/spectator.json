@@ -10,7 +10,7 @@
     },
     "condition": {
         "type": "origins:command",
-        "command": "execute if score @p[tag!=death, distance=64] health",
+        "command": "execute if score @e[tag!=death, distance=64] health",
         "comparison": "<=",
         "compare_to": 4
     }
