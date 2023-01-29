@@ -1,10 +1,19 @@
 {
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "retain_state": true,
-    "key": {
-        "key": "key.origins.primary_active"
-    },
-    "name": "Water or no water that is the question",
-    "description": "Switch between water and not water"
+	"type": "origins:multiple",
+	"toggle": {
+		"type": "origins:toggle",
+		"active_by_default": false,
+		"key": "key.None"
+	},
+	"toggling0": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:toggle",
+			"power": "*:*_toggle"
+		},
+		"cooldown": 200,
+		"hud_render": {
+			"should_render": true
+		}
+	}
 }

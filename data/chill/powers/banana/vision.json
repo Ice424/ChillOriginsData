@@ -1,0 +1,17 @@
+{
+    "type": "origins:night_vision",
+    "strength": 0.5,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "chill:banana/toggle_toggle"
+            }
+        ]
+    }
+}

@@ -7,10 +7,6 @@
 			"type": "origins:execute_command",
 			"command": "power grant @s origins:water_breathing"
 		},
-		{
-			"type": "origins:execute_command",
-			"command": "power grant @s origins:water_vision"
-		},
         {
 			"type": "origins:execute_command",
 			"command": "power grant @s origins:aqua_affinity"
@@ -40,10 +36,6 @@
 			"type": "origins:execute_command",
 			"command": "power remove @s origins:water_breathing"
 		},
-		{
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:water_vision"
-		},
         {
 			"type": "origins:execute_command",
 			"command": "power remove @s origins:aqua_affinity"
@@ -67,7 +59,7 @@
     ]
     },
     "condition": {
-        "type": "origins:power_activate",
-        "power": "chill:banana/toggle"
+        "type": "origins:power_active",
+        "power": "chill:banana/toggle_toggle"
     }
 }

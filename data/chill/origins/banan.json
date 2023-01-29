@@ -1,7 +1,9 @@
 {
 	"powers": [
 		"chill:banana/nosleep",
-		"chill:banana/toggle"
+		"chill:banana/toggle",
+		"chill:banana/water",
+		"chill:banana/vision"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
