@@ -27,4 +27,18 @@ Origin List:
 
 ## To Do
 
-- [ ] Finish To Do list
+- [x] Finish To Do list
+- [ ] Possesed Origin
+    - [ ] Implementation
+    - [ ] power activation
+    - [ ] Buffs
+    - [ ] debuffs
+- [ ] Replace fox origin
+    - [ ] delete original
+    - [ ]create new origin
+- [ ] [#3](https://github.com/Ice424/ChillOriginsData/issues/3)
+    - [ ] Put log file in github
+    - [ ] figure out what the hell is going on
+    - [x] get it working
+- [ ] set up server
+- [ ] any buffs or debuffs
