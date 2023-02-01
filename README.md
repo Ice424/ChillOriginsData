@@ -8,7 +8,25 @@ it may not idk why
 
 This also requires a reasource pack that can be found here: https://github.com/Ice424/ChillOriginsReasources/tree/main
 
-Origin List:
+## To Do
+
+- [x] ~~Finish To Do list~~
+- [ ] Possesed Origin
+    - [ ] Implementation
+    - [ ] power activation
+    - [ ] Buffs
+    - [ ] debuffs
+- [ ] Replace fox origin
+    - [ ] delete original
+    - [ ]create new origin
+- [ ] https://github.com/Ice424/ChillOriginsData/issues/3
+    - [ ] Put log file in github
+    - [ ] figure out what the hell is going on
+    - [x] ~~get it working~~
+- [ ] set up server
+- [ ] any buffs or debuffs
+
+## Origin List
 -   Banana
 -   Bee
 -   BigM
@@ -24,21 +42,3 @@ Origin List:
 -   Tall Boi/Traffic Cone
 -   The Catpire
 -   Tum Tum
-
-## To Do
-
-- [x] Finish To Do list
-- [ ] Possesed Origin
-    - [ ] Implementation
-    - [ ] power activation
-    - [ ] Buffs
-    - [ ] debuffs
-- [ ] Replace fox origin
-    - [ ] delete original
-    - [ ]create new origin
-- [ ] [#3](https://github.com/Ice424/ChillOriginsData/issues/3)
-    - [ ] Put log file in github
-    - [ ] figure out what the hell is going on
-    - [x] get it working
-- [ ] set up server
-- [ ] any buffs or debuffs
