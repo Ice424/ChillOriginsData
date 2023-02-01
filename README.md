@@ -18,7 +18,7 @@ This also requires a reasource pack that can be found here: https://github.com/I
     - [ ] debuffs
 - [ ] Replace fox origin
     - [ ] delete original
-    - [ ]create new origin
+    - [ ] create new origin
 - [ ] https://github.com/Ice424/ChillOriginsData/issues/3
     - [ ] Put log file in github
     - [ ] figure out what the hell is going on
