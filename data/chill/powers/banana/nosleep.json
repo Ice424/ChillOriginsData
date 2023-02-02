@@ -1,4 +1,5 @@
 {
     "type": "origins:prevent_sleep",
-    "message": "no u"
+    "message": "no u",
+    "hidden":"true"
 }

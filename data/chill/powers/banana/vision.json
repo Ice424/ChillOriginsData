@@ -12,6 +12,7 @@
                 "type": "origins:power_active",
                 "power": "chill:banana/toggle_toggle"
             }
-        ]
+        ],
+   "hidden":"true"
     }
 }
