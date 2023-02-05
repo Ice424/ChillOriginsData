@@ -3,7 +3,7 @@
 	"toggle": {
 		"type": "origins:toggle",
 		"active_by_default": false,
-		"key": "key.None"
+		"key": "key.origins.primary_active"
 	},
 	"toggling0": {
 		"type": "origins:active_self",
