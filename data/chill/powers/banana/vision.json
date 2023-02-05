@@ -1,6 +1,6 @@
 {
     "type": "origins:night_vision",
-    "strength": 0.5,
+    "strength": 1.0,
     "condition": {
         "type": "origins:and",
         "conditions": [
