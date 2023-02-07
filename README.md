@@ -1,17 +1,17 @@
 # ChillOrigins
 ## An origins DataPack created for the chill server origins thing
 
-Contains 14 origins all with abilites relating to people personality and or username
-place the zip in your datapks folder then unzip it *should* work, issues can be submitted on git hub or on the discord
+Contains 14 origins all with abilities relating to people personality and or username
+place the zip in your datapack folder then unzip it *should* work, issues can be submitted on git hub or on the discord
 
 it may not idk why
 
-This also requires a reasource pack that can be found here: https://github.com/Ice424/ChillOriginsReasources/tree/main
+This also requires a resource pack that can be found here: https://github.com/Ice424/ChillOriginsReasources/tree/main
 
 ## To Do
 
 - [x] ~~Finish To Do list~~
-- [ ] Possesed Origin
+- [ ] Possessed Origin
     - [ ] Implementation
     - [ ] power activation
     - [ ] Buffs
@@ -31,14 +31,14 @@ This also requires a reasource pack that can be found here: https://github.com/I
 -   Bee
 -   BigM
 -   Death
--   Farrari
+-   Ferrari
 -   Fox (will be removed)
 -   Frog
 -   Icy
 -   Nightrunner
 -   SAAAGAAAA
 -   The Short One
--   Support (overwat referance?)
+-   Support (overwat reference?)
 -   Tall Boi/Traffic Cone
 -   The Catpire
 -   Tum Tum
