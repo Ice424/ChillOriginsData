@@ -12,10 +12,10 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 
 - [x] ~~Finish To Do list~~
 - [ ] Possessed Origin
-    - [ ] Implementation
-    - [ ] power activation
-    - [ ] Buffs
-    - [ ] debuffs
+    - [x] ~~Implementation~~
+    - [x] ~~power activation~~
+    - [x] ~~Passive~~
+    - [ ] crash and death
 - [ ] Replace fox origin
     - [ ] delete original
     - [ ] create new origin
@@ -42,3 +42,4 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 -   Tall Boi/Traffic Cone
 -   The Catpire
 -   Tum Tum
+-   possessed 
