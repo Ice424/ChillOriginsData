@@ -3,12 +3,15 @@
 	"toggle": {
 		"type": "origins:toggle",
 		"active_by_default": false,
-		"key": "key.origins.primary_active"
+		"key": "key.null",
+		"comment": {
+			"//off=land on=water": "starts off"
+		}
 	},
-	"toggling0": {
+	"toggling": { 
 		"type": "origins:active_self",
 		"entity_action": {
-			"type": "origins:toggle",
+			"type": "origins:toggle", 
 			"power": "*:*_toggle"
 		},
 		"cooldown": 45,

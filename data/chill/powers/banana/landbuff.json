@@ -1,26 +1,26 @@
 {
-   "type":"origins:action_over_time", 
-   "rising_action":{
-       "type":"origins:and",
-       "actions": [
-		{
-		"type": "origins:apply_effect",
-        "effect": "minecraft:resistance",
-        "duration": 400,
-        "amplifier": 2
-		},
-        {
-		"type": "origins:apply_effect",
-        "effect": "minecraft:strength",
-        "duration": 16000,
-        "amplifier": 1
-         }
-        
-    ] 
-   },
-   "condition":{
+    "type":"origins:action_over_time", 
+    "entity_action":{
+        "type":"origins:and",
+        "actions": [
+            {
+            "type": "origins:apply_effect",
+            "effect": "minecraft:resistance",
+            "duration": 40,
+            "amplifier": 2
+            },
+            {
+            "type": "origins:apply_effect",
+            "effect": "minecraft:strength",
+            "duration": 40,
+            "amplifier": 1
+            }
+        ]  
+        },
+        "interval": 20,
+    "condition":{
     "type":"origins:and",
-          "conditions":[
+        "conditions":[
             {
                 "type": "origins:submerged_in",
                 "fluid": "minecraft:water",
@@ -32,6 +32,6 @@
                 "inverted":true
             }
         ]
-   },
-   "hidden":true
+    },
+    "hidden":true
 }

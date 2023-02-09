@@ -1,19 +1,19 @@
 {
     "type":"origins:action_over_time", 
-    "rising_action":{
+    "entity_action":{
         "type":"origins:and",
         "actions": [
-         {
-         "type": "origins:apply_effect",
-         "effect": "minecraft:weakness",
-         "duration": 16000,
-         "amplifier": 4
-         },
-         {
-         "type": "origins:apply_effect",
-         "effect": "minecraft:slowness",
-         "duration": 16000,
-         "amplifier":4
+        {
+            "type": "origins:apply_effect",
+            "effect": "minecraft:weakness",
+            "duration": 40,
+            "amplifier": 4
+            },
+            {
+            "type": "origins:apply_effect",
+            "effect": "minecraft:slowness",
+            "duration": 40,
+            "amplifier":4
         },
         {
             "type": "origins:modify_damage_taken",
@@ -22,23 +22,23 @@
                 "value": 3
             }
         }
-
-         
-     ] 
+        ]
     },
+    "interval": 20,
     "condition":{
-     "type":"origins:and",
-           "conditions":[
-             {
-                 "type": "origins:submerged_in",
-                 "fluid": "minecraft:water",
-                 "inverted":true
-             },
-             {
-                 "type": "origins:power_active",
-                 "power": "chill:banana/toggle_toggle"
-             }
-         ]
+        "type":"origins:and",
+            "conditions":[
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water",
+                "inverted":true
+            },
+            {
+                "type": "origins:power_active",
+                "power": "chill:banana/toggle_toggle",
+                "inverted": true
+            }
+        ]
     },
     "hidden":true
- }
+}
