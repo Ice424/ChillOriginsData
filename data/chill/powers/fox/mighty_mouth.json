@@ -1,9 +1,0 @@
-{
-    "type": "origins:inventory",
-    "drop_on_death": false,
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
-	"name": "Mighty Mouth",
-	"description": "You can carry a few items in your mouth! You can access this pouch by using your secondary key."
-}

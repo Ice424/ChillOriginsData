@@ -17,7 +17,7 @@ This also requires a resource pack that can be found here: https://github.com/Ic
     - [x] ~~Passive~~
     - [ ] crash and death
 - [ ] Replace fox origin
-    - [ ] delete original
+    - [x] ~~delete original~~
     - [ ] create new origin
 - [ ] https://github.com/Ice424/ChillOriginsData/issues/3
     - [ ] Put log file in github
@@ -32,7 +32,6 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 -   BigM
 -   Death
 -   Ferrari
--   Fox (will be removed)
 -   Frog
 -   Icy
 -   Nightrunner
