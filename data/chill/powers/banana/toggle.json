@@ -14,7 +14,11 @@
 			"type": "origins:toggle", 
 			"power": "*:*_toggle"
 		},
+<<<<<<< Updated upstream
 		"cooldown": 45,
+=======
+		"cooldown": 600,
+>>>>>>> Stashed changes
 		"hud_render": {
 			"should_render": true
 		}

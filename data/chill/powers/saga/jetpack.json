@@ -9,14 +9,14 @@
                {
                   "effect":"minecraft:levitation",
                   "amplifier":3,
-                  "duration":2,
+                  "duration":4,
                   "show_particles":false,
                   "show_icon":false
                },
                {
                   "effect":"minecraft:speed",
                   "amplifier":3,
-                  "duration":2,
+                  "duration":4,
                   "show_particles":false,
                   "show_icon":false
                }
@@ -45,10 +45,6 @@
       "type":"origins:and",
       "conditions":[
          {
-            "type":"origins:on_block",
-            "inverted":true
-         },
-         {
             "type":"origins:resource",
             "resource":"chill:saga/fuel",
             "comparison":">=",
@@ -66,7 +62,7 @@
       ]
    },
    "key":{
-      "key":"key.origins_primary_active",
+      "key":"key.origins.primary_active",
       "continuous":true
    },
    "name":"Jetpack",

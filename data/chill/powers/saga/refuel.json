@@ -31,7 +31,7 @@
         "type": "origins:resource",
         "resource": "chill:saga/fuel",
         "comparison": "<",
-        "compare_to": 99
+        "compare_to": 49
       }
     ]
   }

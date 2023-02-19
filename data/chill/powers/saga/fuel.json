@@ -1,8 +1,8 @@
 {
 	"type": "origins:resource",
 	"min": 0,
-	"max": 100,
-	"start_value": 100,
+	"max": 50,
+	"start_value": 50,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/resource_bar.png",
@@ -11,7 +11,7 @@
 			"type": "origins:resource",
 			"resource": "chill:saga/fuel",
 			"comparison": "<",
-			"compare_to": 100
+			"compare_to": 50
 		}
 	},
 	"hidden": true

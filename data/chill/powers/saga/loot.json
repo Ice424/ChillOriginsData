@@ -1,7 +1,0 @@
-{
-    "type": "origins:action_over_time",
-    "rising_action": {
-        "type": "origins:execute_command",
-        "command": "enchant @s looting 2"
-    }
-}
