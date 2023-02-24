@@ -3,7 +3,7 @@
 
 # Will Release next week!!!
 
-Contains 14 origins all with abilities relating to people personality and or username
+Contains 13 origins all with abilities relating to people personality and or username
 place the zip in your datapack folder then unzip it *should* work, issues can be submitted on git hub or on the discord
 
 it may not idk why
@@ -25,7 +25,7 @@ This also requires a resource pack that can be found here: https://github.com/Ic
     - [ ] Put log file in github
     - [ ] figure out what the hell is going on
     - [x] ~~get it working~~
-- [ ] set up server
+- [x] ~~set up server~~
 - [ ] any buffs or debuffs
 
 ## Origin List
