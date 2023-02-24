@@ -26,5 +26,5 @@
     },
     "interval": 20,
     "name": "passive",
-    "description": "you have speed 1 and hunger as passive effects"
+    "description": "you have speed and hunger as passive effects"
 }

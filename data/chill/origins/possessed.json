@@ -1,5 +1,7 @@
 {
 	"powers": [
+		"chill:possessed/passive",
+		"chill:possessed/sugar_rush"
 	],
 	"icon": "minecraft:sugar",
 	"order": 10,
