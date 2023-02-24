@@ -2,7 +2,9 @@
 	"powers": [
         "chill:saga/fuel",
         "chill:saga/jetpack",
-        "chill:saga/refuel"
+        "chill:saga/refuel",
+		"origins:vegetarian",
+		"chill:saga/hunger"
 	],
 	"icon": "minecraft:fern",
 	"order": 10,
