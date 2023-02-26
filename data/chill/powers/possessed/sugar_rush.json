@@ -1,59 +1,128 @@
 {
-  "type": "origins:active_self",
-  "key": {
-    "key": "key.use"
-  },
-  "hud_render": {
-    "should_render": true
-  },
-  "cooldown": 1200,
-  "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:feed",
-        "food": 3.0,
-        "saturation": 0.1667
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "effect": "minecraft:strength",
-          "duration": 600,
-          "amplifier": 1
-        }
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "effect": "minecraft:speed",
-          "duration": 600,
-          "amplifier": 2
-        }
-      },
-      {
-        "type": "origins:equipped_item_action",
-        "equipment_slot": "mainhand",
-        "action": {
-          "type": "origins:consume",
-          "amount": 1
-        }
-      },
-      {
-        "type": "origins:play_sound",
-        "sound": "minecraft:entity.player.burp"
-      }
-    ]
-  },
-  "condition": {
-    "type": "origins:equipped_item",
-    "equipment_slot": "mainhand",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:sugar"
-      }
+  "type": "origins:multiple",
+  "name": "rush and crash",
+  "description": "sugar rush then sugar crash idk",
+  "activation_time": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": "7"
     }
   },
-  "hidden": true
+  "activation": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:trigger_cooldown",
+      "power": "*:*_activation_time"
+    },
+    "cooldown": 500,
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_activation_time",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:sugar"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "actions": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:feed",
+          "food": 3.0,
+          "saturation": 0.1667
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 1000,
+            "amplifier": 0
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 1000,
+            "amplifier": 1
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 1000,
+            "amplifier": 3
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.player.burp"
+        }
+      ]
+    },
+    "falling_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "effect clear @s"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 600,
+            "amplifier": 2
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 600,
+            "amplifier": 1
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_activation_time",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  }
 }
