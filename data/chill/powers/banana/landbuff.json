@@ -1,19 +1,23 @@
 {
     "type":"origins:action_over_time", 
     "entity_action":{
-        "type":"origins:and",
-        "actions": [
+        "type":"origins:apply_effect",
+        "effects": [
             {
             "type": "origins:apply_effect",
-            "effect": "minecraft:resistance",
-            "duration": 40,
-            "amplifier": 2
+            "effect": {
+                "effect": "minecraft:resistance",
+                "duration": 40,
+                "amplifier": 2
+                }
             },
             {
             "type": "origins:apply_effect",
-            "effect": "minecraft:strength",
-            "duration": 40,
-            "amplifier": 1
+            "effect": {
+                "effect": "minecraft:strength",
+                "duration": 40,
+                "amplifier": 1
+                }
             }
         ]  
         },

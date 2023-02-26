@@ -3,7 +3,11 @@
 		"chill:banana/nosleep",
 		"chill:banana/toggle",
 		"chill:banana/water",
-		"chill:banana/vision"
+		"chill:banana/vision",
+		"chill:banana/landbuff",
+		"chill:banana/landdebuff",
+		"chill:banana/waterbuff",
+		"chill:banana/waterdebuff"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
