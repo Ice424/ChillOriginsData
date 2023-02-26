@@ -3,21 +3,23 @@
     "entity_action":{
         "type":"origins:and",
         "actions": [
-        {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:resistance",
-                "duration": 20,
-                "amplifier": 2
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 80,
+                    "amplifier": 2
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:strength",
+                    "duration": 80,
+                    "amplifier": 1
+                }
             }
-        },
-        {
-            "type": "origins:apply_effect",
-            "effect": "minecraft:strength",
-            "duration": 20,
-            "amplifier": 1
-        }
-    ] 
+        ] 
     },
     "interval": 20,
     "condition":{
@@ -33,5 +35,5 @@
             }
         ]
     },
-    "hidden":true
+    "hidden":false
 }

@@ -7,7 +7,7 @@
             "type": "origins:apply_effect",
             "effect": {
                 "effect": "minecraft:weakness",
-                "duration": 40,
+                "duration": 80,
                 "amplifier": 4
             }
         },
@@ -15,15 +15,8 @@
             "type": "origins:apply_effect",
             "effect": {
                 "effect": "minecraft:slowness",
-                "duration": 40,
+                "duration": 80,
                 "amplifier":4
-            }
-        },
-        {
-            "type": "origins:modify_damage_taken",
-            "modifier": {
-                "operation": "multiply_total",
-                "value": 3
             }
         }
         ]
@@ -35,14 +28,13 @@
             {
                 "type": "origins:submerged_in",
                 "fluid": "minecraft:water",
-                "inverted":true
+                "inverted": true
             },
             {
                 "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle",
-                "inverted": true
+                "power": "chill:banana/toggle_toggle"
             }
         ]
     },
-    "hidden":true
+    "hidden":false
 }

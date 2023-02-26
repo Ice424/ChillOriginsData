@@ -6,8 +6,10 @@
 		"chill:banana/vision",
 		"chill:banana/landbuff",
 		"chill:banana/landdebuff",
+		"chill:banana/landdebuff2",
 		"chill:banana/waterbuff",
-		"chill:banana/waterdebuff"
+		"chill:banana/waterdebuff",
+		"chill:banana/waterdebuff2"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
