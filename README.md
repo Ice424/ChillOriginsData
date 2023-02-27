@@ -17,6 +17,7 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 - [x] ~~Replace fox origin~~ (not going to happen)
 - [x] ~~https://github.com/Ice424/ChillOriginsData/issues/3~~ have decided to host server on fabric will reopen issue if too laggy
 - [x] ~~set up server~~
+- [ ] https://github.com/Ice424/ChillOriginsData/issues/6
 - [ ] any buffs or debuffs
 
 ## Origin List
