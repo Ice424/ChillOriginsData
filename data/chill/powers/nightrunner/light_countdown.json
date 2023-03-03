@@ -5,7 +5,7 @@
     "resource": {
         "type": "origins:resource",
         "min": 0,
-        "max": 4800,
+        "max": 100,
         "hud_render": {
             "should_render": true,
             "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
@@ -14,7 +14,7 @@
                 "type": "origins:resource",
                 "resource": "chill:light_countdown_resource",
                 "comparison": "==",
-                "compare_to": 4800,
+                "compare_to": 100,
                 "inverted": true
             }
         }
@@ -23,20 +23,13 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "chill:light_countdown_resource",
+            "resource": "chill:nightrunner/light_countdown_resource",
             "change": -1
         },
         "condition": {
-            "type": "origins:in_block",
-            "block_condition": {
-                "type": "origins:offset",
-                "condition": {
-                    "type": "origins:brightness",
-                    "comparison": "<=",
-                    "compare_to": 0.2
-                },
-                "y": -1
-            }
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.2
         },
         "interval": 1
     },
@@ -44,20 +37,13 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "chill:light_countdown_resource",
+            "resource": "chill:nightrunner/light_countdown_resource",
             "change": -1
         },
         "condition": {
-            "type": "origins:in_block",
-            "block_condition": {
-                "type": "origins:offset",
-                "condition": {
-                    "type": "origins:brightness",
-                    "comparison": "<=",
-                    "compare_to": 0.11111111
-                },
-                "y": -1
-            }
+            "type": "origins:brightness",
+            "comparison": "<=",
+            "compare_to": 0.11111111
         },
         "interval": 1
     },
@@ -65,20 +51,13 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "chill:light_countdown_resource",
-            "change": 4800
+            "resource": "chill:nightrunner/light_countdown_resource",
+            "change": 100
         },
         "condition": {
-            "type": "origins:in_block",
-            "block_condition": {
-                "type": "origins:offset",
-                "condition": {
-                    "type": "origins:brightness",
-                    "comparison": "<=",
-                    "compare_to": 0.11111111
-                },
-                "y": -1
-            }
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.11111111
         },
         "interval": 1
     },
@@ -86,20 +65,13 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "chill:light_countdown_resource",
-            "change": 4800
+            "resource": "chill:nightrunner/light_countdown_resource",
+            "change": 100
         },
         "condition": {
-            "type": "origins:in_block",
-            "block_condition": {
-                "type": "origins:offset",
-                "condition": {
-                    "type": "origins:brightness",
-                    "comparison": "<=",
-                    "compare_to": 0.2
-                },
-                "y": -1
-            }
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.2
         },
         "interval": 1
     },
@@ -116,7 +88,7 @@
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "chill:light_countdown_resource",
+            "resource": "chill:nightrunner/light_countdown_resource",
             "compare_to": 0,
             "comparison": "=="
         }
