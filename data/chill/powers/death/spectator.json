@@ -10,8 +10,8 @@
     },
     "condition": {
         "type": "origins:command",
-        "command": "execute if score @e[tag!=death, distance=64] health",
-        "comparison": "<=",
-        "compare_to": 4
+        "command": "execute if score @p[tag=!death, distance=64] health < @s spectator",
+        "comparison": "==",
+        "compare_to": 1
     }
 }
