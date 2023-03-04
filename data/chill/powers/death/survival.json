@@ -2,6 +2,6 @@
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "execute if score @p[tag=!death] health > @s spectator run gamemode spectator"
+        "command": "execute if score @p[tag=!death] health <= @s spectator run gamemode survival"
     }
 }

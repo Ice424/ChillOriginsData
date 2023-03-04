@@ -13,8 +13,8 @@
             },
             {
                 "type": "origins:grant_power",
-                "power": "chill:fall_damage",
-                "source": "chill:jump"
+                "power": "chill:frog/fall_damage",
+                "source": "chill:frog"
             }
         ]
     },

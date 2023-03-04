@@ -5,9 +5,8 @@
         "fall_distance": 0
     },
     "falling_action": {
-        "type": "origins:revoke_power",
-        "power": "chill:frog/fall_damage",
-        "source": "chill:jump"
+        "type": "origins:execute_command",
+        "command": "power remove @s chill:frog/fall_damage"
     },
     "interval": 1,
     "condition": {

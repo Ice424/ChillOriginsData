@@ -1,7 +1,10 @@
 {
 	"powers": [
         "chill:death/setup",
-		"chill:death/spectator"
+		"chill:death/spectator",
+		"chill:death/survival",
+		"chill:death/fall",
+		"chill:death/damage"
     ],
 	"icon": "minecraft:skeleton_skull",
 	"order": 10,

@@ -15,24 +15,26 @@
             },
             {
                 "type": "origins:change_resource",
-                "resource": "*:fall_break_resource",
+                "resource": "chill:nightrunner/fall_break_resource",
                 "change": -2
             }
         ]
     },
     "condition": {
         "type": "origins:and",
-        "conditions": [{
-        "type": "origins:resource",
-        "resource": "*:fall_break_resource",
-        "comparison": ">",
-        "compare_to": 0
-        },
-    {
-        "type": "origins:sneaking"
-    }]
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "chill:nightrunner/fall_break_resource",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:sneaking"
+            }
+        ]
     },
     "interval": 1,
-		"name": "Fall Break",
-	"description": "Press the sneak key to stop your fall."
+    "name": "Fall Break",
+    "description": "Press the sneak key to stop your fall."
 }
