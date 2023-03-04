@@ -1,7 +1,7 @@
 # ChillOrigins
 ## An origins DataPack created for the chill server origins thing
 
-# Will Release next week!!!
+# DONE
 
 Contains 13 origins all with abilities relating to people personality and or username
 place the zip in your datapack folder then unzip it *should* work, issues can be submitted on git hub or on the discord
