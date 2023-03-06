@@ -13,7 +13,7 @@
             },
             {
                 "type": "origins:grant_power",
-                "power": "chill:fall_damage",
+                "power": "chill:short/fall_damage",
                 "source": "chill:jump"
             }
         ]

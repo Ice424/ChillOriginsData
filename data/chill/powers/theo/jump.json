@@ -1,0 +1,11 @@
+{
+    "origins": "activate_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 8,
+        "entity": false,
+        "command_at_hit": "tp @p ~ ~ ~ ",
+        "shape_type": "collider"
+    },
+    "cooldown": 800
+}
