@@ -16,7 +16,7 @@
             "effect": {
                 "effect": "minecraft:strength",
                 "duration": 80,
-                "amplifier": 1
+                "amplifier": 2
                 }
             }
         ]  
