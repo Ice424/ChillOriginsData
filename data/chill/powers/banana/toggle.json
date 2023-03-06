@@ -14,7 +14,7 @@
 			"type": "origins:toggle", 
 			"power": "*:*_toggle"
 		},
-		"cooldown": 1800,
+		"cooldown": 3600,
 		"hud_render": {
 			"should_render": true
 		}
