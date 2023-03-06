@@ -15,6 +15,9 @@
                 "type": "origins:grant_power",
                 "power": "chill:short/fall_damage",
                 "source": "chill:jump"
+            },
+            {
+                "type": "origins:dismount"
             }
         ]
     },

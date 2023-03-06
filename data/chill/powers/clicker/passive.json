@@ -1,0 +1,30 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:darkness",
+                    "duration": 50,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:hunger",
+                    "duration": 50,
+                    "amplifier": 0,
+                    "show_particles": false
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "name": "passive",
+    "description": "you have darkness and hunger as passive effects"
+}

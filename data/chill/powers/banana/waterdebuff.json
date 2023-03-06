@@ -8,7 +8,8 @@
                 "effect": {
                     "effect": "minecraft:weakness",
                     "duration": 80,
-                    "amplifier": 4
+                    "amplifier": 4,
+                    "show_particles": false
                 }
             },
             {
@@ -16,7 +17,8 @@
                 "effect": {
                     "effect": "minecraft:slowness",
                     "duration": 80,
-                    "amplifier":4
+                    "amplifier":4,
+                    "show_particles": false
                 }
             }
         ]
