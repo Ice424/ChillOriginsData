@@ -1,3 +1,4 @@
 {
-    "type": "origins:modify_damage_taken"
+    "type": "origins:modify_damage_taken",
+    "damage_condition"
 }

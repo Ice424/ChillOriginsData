@@ -56,5 +56,6 @@
 			"type": "origins:execute_command",
 			"command": "power remove @s origins:air_from_potions"
 		}
-  
+		]
+	}
 }
