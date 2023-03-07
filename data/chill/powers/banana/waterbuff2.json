@@ -6,7 +6,7 @@
             {
                 "type": "origins:apply_effect",
                 "effect": {
-                    "effect": "minecraft:resistance",
+                    "effect": "minecraft:strength",
                     "duration": 80,
                     "amplifier": 2,
                     "show_particles": false
@@ -24,7 +24,8 @@
             },
             {
                 "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle"
+                "power": "chill:banana/toggle_toggle",
+                "inverted":"true"
             }
         ]
     },

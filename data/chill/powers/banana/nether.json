@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:wither",
+                    "duration": 100,
+                    "amplifier": 89,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "name": "too Hot",
+    "description": "places like the nether are to hot for you to function properly"
+}

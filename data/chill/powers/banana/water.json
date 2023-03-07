@@ -28,34 +28,6 @@
 			"command": "power grant @s origins:air_from_potions"
 		}
 		]
-    },
-    "falling_action": {
-        "type": "origins:and",
-		"actions": [
-		{
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:water_breathing"
-		},
-        {
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:aqua_affinity"
-		},
-        {
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:swim_speed"
-		},
-        {
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:like_water"
-		},
-        {
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:aquatic"
-		},
-        {
-			"type": "origins:execute_command",
-			"command": "power remove @s origins:air_from_potions"
-		}
-		]
-	}
+    }
 }
+    
