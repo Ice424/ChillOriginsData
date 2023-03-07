@@ -1,11 +1,20 @@
 {
-    "origins": "activate_self",
-    "entity_action": {
-        "type": "origins:raycast",
-        "distance": 8,
-        "entity": false,
-        "command_at_hit": "tp @p ~ ~ ~ ",
-        "shape_type": "collider"
+    "hidden": false,
+    "type": "origins:active_self",
+    "cooldown": 100,
+    "key": "key.origins.secondary_active",
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 1
     },
-    "cooldown": 800
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": 0,
+        "y": 0,
+        "z": 1.5
+    },
+    "name": "Dash",
+    "description": "Quickly dash 5 blocks in the direction you are looking. you can evade the sunlight more easly."
 }
