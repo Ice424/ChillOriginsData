@@ -40,10 +40,6 @@
                 "type": "origins:submerged_in",
                 "fluid": "minecraft:water",
                 "inverted": true
-            },
-            {
-                "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle"
             }
         ]
     },
