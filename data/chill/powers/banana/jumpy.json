@@ -40,5 +40,5 @@
         "fluid": "minecraft:water"
     },
     "name": "Boost",
-    "description": "Boost yourself through the water you also gain invisibility for 15 seconds"
+    "description": "Boost yourself through the water you also gain invisibility for 1 second"
 }

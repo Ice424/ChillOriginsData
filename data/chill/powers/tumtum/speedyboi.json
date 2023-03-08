@@ -5,9 +5,9 @@
             {
                 "type": "origins:apply_effect",
                 "effect": {
-                    "effect": "minecraft:resistance",
+                    "effect": "minecraft:speed",
                     "duration": 80,
-                    "amplifier": 2,
+                    "amplifier": 4,
                     "show_particles": false
                 }
             }
@@ -23,9 +23,9 @@
             },
             {
                 "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle"
+                "power": "chill:tumtum/toggler"
             }
         ]
     },
-    "hidden":false
+    "hidden":true
 }
