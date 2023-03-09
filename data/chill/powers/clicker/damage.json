@@ -1,4 +1,21 @@
 {
     "type": "origins:modify_damage_taken",
-    "damage_condition"
+    "damage_condition": {
+        "type": "or",
+        "conditions": [
+            {
+                "type": "origins:fire"
+            },
+            {
+                "type": "origins:projectile"
+            }
+        ]
+    },
+    "modifier": {
+        "name": "You take extra damage from fire and projectiles",
+        "operation": "addition",
+        "value": 5.5
+    },
+    "name":"Weaker",
+    "description": "You take extra damage from fire and projectiles (me with a flame bow)"
 }
