@@ -1,15 +1,16 @@
 {
 	"powers": [
-		"chill:banana/nosleep",
-		"chill:banana/toggle",
-		"chill:banana/water",
-		"chill:banana/vision",
-		"chill:banana/landbuff",
+		"chill:banana/fortify",
 		"chill:banana/landdebuff",
 		"chill:banana/landdebuff2",
+		"chill:banana/nether",
+		"chill:banana/nosleep",
+		"chill:banana/toggle",
+		"chill:banana/toggle2",
+		"chill:banana/vision",
+		"chill:banana/water",
 		"chill:banana/waterbuff",
-		"chill:banana/waterdebuff",
-		"chill:banana/waterdebuff2"
+		"chill:banana/waterbuff2"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,

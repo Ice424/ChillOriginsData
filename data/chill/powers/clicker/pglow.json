@@ -1,0 +1,19 @@
+{
+    "type": "origins:entity_glow",
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 70
+    },
+    "use_teams": false,
+    "red": 0.0,
+    "green": 1.0,
+    "blue": 0.0,
+        "entity_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player",
+        "inverted": true
+    },
+    "name": "stalker",
+    "description": "all entities around you glow"
+}

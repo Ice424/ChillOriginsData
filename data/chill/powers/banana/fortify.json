@@ -1,42 +1,45 @@
 {
-        "type":"origins:action_over_time", 
-        "entity_action":{
-            "type":"origins:and",
-            "actions": [
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:resistance",
-                        "amplifier": 4,
-                        "show_particles": false
-                    }
-                },
-                {
-                    "type": "origins:modify_velocity",
-                    "modifier": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "amplifier": 4,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:modify_velocity",
+                "modifier": {
                     "value": -2,
                     "operation": "multiply_total"
-                        },
-                        "axes": [
-                          "x",0,
-                          "y",0,
-                          "z",0
-                        ]
-                }
-            ] 
-        },
-        "condition":{
-        "type":"origins:and",
-                "conditions":[
-                {
-                    "type": "origins:submerged_in",
-                    "fluid": "minecraft:water"
                 },
-                {
-                    "type": "origins:power_active",
-                    "power": "chill:banana/toggle2"
-                }
-            ]
-        },
-        "hidden":false
+                "axes": [
+                    "x",
+                    0,
+                    "y",
+                    0,
+                    "z",
+                    0
+                ]
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "chill:banana/toggle2"
+            }
+        ]
+    },
+    "hidden": false
 }
