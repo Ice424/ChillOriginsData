@@ -1,21 +1,21 @@
 {
   "replace": false,
   "origins": [
-    "chill:icy",
-    "chill:tumtum",
     "chill:banan",
-    "chill:bigm",
-    "chill:short_one",
-    "chill:ferrari",
-    "chill:theo",
-    "chill:frog",
-    "chill:tallboi",
-    "chill:possessed",
     "chill:bee",
-    "chill:nightrunner",
+    "chill:bigm",
+    "chill:clicker",
     "chill:death",
-    "chill:support",
+    "chill:ferrari",
+    "chill:frog",
+    "chill:icy",
+    "chill:nightrunner",
+    "chill:possessed",
     "chill:saga",
-    "chill:clicker"
+    "chill:short_one",
+    "chill:support",
+    "chill:tallboi",
+    "chill:theo",
+    "chill:tumtum"
   ]
 }
