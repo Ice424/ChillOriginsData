@@ -3,7 +3,7 @@
 	"toggle": {
 		"type": "origins:toggle",
 		"active_by_default": false,
-		"key": "key.origins.secondary_active",
+		"key": "key.null",
 		"comment": {
 			"//off=hooman on=fish": "starts off"
 		}
