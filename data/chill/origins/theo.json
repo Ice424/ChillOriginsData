@@ -4,7 +4,8 @@
 		"chill:theo/night",
 		"chill:theo/summon",
 		"chill:theo/sword",
-		"chill:theo/sunglow"
+		"chill:theo/sunglow",
+		"chill:theo/jump"
 	],
 	"icon": "minecraft:nether_wart_block",
 	"order": 11,
