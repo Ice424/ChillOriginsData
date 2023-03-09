@@ -11,24 +11,6 @@
                 "amplifier": 4,
                 "show_particles": false
             }
-        },
-        {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:slowness",
-                "duration": 80,
-                "amplifier":4,
-                "show_particles": false
-            }
-        },
-        {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:blindness",
-                "duration": 80,
-                "amplifier":1,
-                "show_particles": false  
-            }
         }
         ]
     },
