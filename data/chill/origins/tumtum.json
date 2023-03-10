@@ -1,19 +1,19 @@
 {
 	"powers": [
 		"chill:tumtum/anvil",
-		"chill:tumtum/speedyboi",
-		"chill:tumtum/toggler",
-		"chill:tumtum/weakling",
 		"chill:tumtum/crafting",
 		"chill:tumtum/enchant",
-		"origins:water_breathing",
-		"origins:water_vision",
-		"origins:aqua_affinity",
+		"chill:tumtum/speedyboi",
 		"chill:tumtum/swim_speed",
-		"origins:like_water",
+		"chill:tumtum/toggler",
+		"chill:tumtum/vision",
+		"chill:tumtum/weakling",
+		"origins:air_from_potions",
+		"origins:aqua_affinity",
 		"origins:aquatic",
 		"origins:conduit_power_on_land",
-		"origins:air_from_potions"
+		"origins:like_water",
+		"origins:water_breathing"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,
