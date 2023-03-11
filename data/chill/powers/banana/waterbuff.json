@@ -18,12 +18,9 @@
     "type":"origins:and",
             "conditions":[
             {
-                "type": "origins:submerged_in",
-                "fluid": "minecraft:water"
-            },
-            {
                 "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle"
+                "power": "chill:banana/toggle_toggle",
+                "inverted":true
             }
         ]
     },

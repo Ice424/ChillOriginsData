@@ -15,15 +15,10 @@
     },
     "interval": 20,
     "condition":{
-    "type":"origins:and",
             "conditions":[
             {
-                "type": "origins:submerged_in",
-                "fluid": "minecraft:water"
-            },
-            {
                 "type": "origins:power_active",
-                "power": "chill:tumtum/toggler"
+                "power": "chill:tumtum/toggler_toggle"
             }
         ]
     },
