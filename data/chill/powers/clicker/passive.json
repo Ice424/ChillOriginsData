@@ -9,14 +9,22 @@
                     "effect": "minecraft:darkness",
                     "duration": 50,
                     "amplifier": 0,
-                    "show_particles": false,
-                    "show_icon": true
+                    "show_particles": false
                 }
             },
             {
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:hunger",
+                    "duration": 50,
+                    "amplifier": 0,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
                     "duration": 50,
                     "amplifier": 0,
                     "show_particles": false
