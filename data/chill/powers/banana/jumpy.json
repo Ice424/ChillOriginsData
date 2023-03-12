@@ -34,12 +34,10 @@
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
         "bar_index": 20
     },
-    "key":"key.origins.secondary_active",
     "cooldown": 30,
     "condition": {
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
     },
-    "name": "Boost",
-    "description": "Boost yourself through the water you also gain invisibility for 1 second"
+    "hidden":"true"
 }
