@@ -15,14 +15,8 @@
     },
     "interval": 20,
     "condition":{
-    "type":"origins:and",
-            "conditions":[
-            {
                 "type": "origins:power_active",
-                "power": "chill:banana/toggle_toggle",
-                "inverted":true
-            }
-        ]
-    },
+                "power": "chill:banana/toggle_toggle"
+                 },
     "hidden":false
 }

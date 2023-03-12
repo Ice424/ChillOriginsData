@@ -3,7 +3,7 @@
 	"toggle": {
 		"type": "origins:toggle",
 		"active_by_default": false,
-		"key": "key.null",
+		"key": "key.origins.secondary_active",
 		"comment": {
 			"//off=strength on=resistance": "starts off"
 		}
