@@ -9,7 +9,8 @@
                     "effect": "minecraft:darkness",
                     "duration": 50,
                     "amplifier": 0,
-                    "show_particles": false
+                    "show_particles": false,
+                    "show_icon": false
                 }
             },
             {
@@ -18,7 +19,8 @@
                     "effect": "minecraft:hunger",
                     "duration": 50,
                     "amplifier": 0,
-                    "show_particles": false
+                    "show_particles": false,
+                    "show_icon": false
                 }
             },
             {
@@ -27,7 +29,8 @@
                     "effect": "minecraft:resistance",
                     "duration": 50,
                     "amplifier": 0,
-                    "show_particles": false
+                    "show_particles": false,
+                    "show_icon": false
                 }
             }
         ]
