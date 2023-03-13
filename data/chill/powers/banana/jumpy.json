@@ -26,9 +26,9 @@
             },
             {
                 "type": "origins:execute_command",
-                "command":"particle minecraft:explosion_emitter"
+                "command": "particle minecraft:explosion_emitter"
             }
-            ]
+        ]
     },
     "hud_render": {
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
@@ -39,5 +39,5 @@
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
     },
-    "hidden":"true"
+    "hidden": "true"
 }
