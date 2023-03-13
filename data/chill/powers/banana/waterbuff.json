@@ -1,13 +1,14 @@
 {
     "type":"origins:action_over_time", 
     "entity_action":{
-            "actions": [
+        "type":"origins:and",
+        "actions": [
             {
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:resistance",
                     "duration": 80,
-                    "amplifier": 2,
+                    "amplifier": 1,
                     "show_particles": false
                 }
             }
@@ -15,8 +16,13 @@
     },
     "interval": 20,
     "condition":{
+    "type":"origins:and",
+            "conditions":[
+            {
                 "type": "origins:power_active",
                 "power": "chill:banana/toggle_toggle"
-                 },
+            }
+        ]
+    },
     "hidden":false
 }
