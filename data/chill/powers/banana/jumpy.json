@@ -31,7 +31,7 @@
         ]
     },
     "key":{
-        "key":"key.origins.secondary_active",
+        "key":"key.origins.primary_active",
         "continuous":false
     },
     "hud_render": {
