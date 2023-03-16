@@ -7,9 +7,16 @@
 		"chill:banana/nosleep",
 		"chill:banana/toggle",
 		"chill:banana/vision",
-		"chill:banana/water",
 		"chill:banana/waterbuff",
-		"chill:banana/waterbuff2"
+		"chill:banana/waterbuff2",
+		"origins:water_breathing",
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:air_from_potions"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
