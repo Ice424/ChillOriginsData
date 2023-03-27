@@ -1,12 +1,11 @@
 {
 	"powers": [
-		"chill:banana/fortify",
+		"chill:banana/jumpy",
 		"chill:banana/landdebuff",
 		"chill:banana/landdebuff2",
 		"chill:banana/nether",
 		"chill:banana/nosleep",
 		"chill:banana/toggle",
-		"chill:banana/toggle2",
 		"chill:banana/vision",
 		"chill:banana/water",
 		"chill:banana/waterbuff",
