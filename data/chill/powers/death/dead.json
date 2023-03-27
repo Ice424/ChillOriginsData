@@ -1,0 +1,23 @@
+{
+    "type": "origins:activate_self",
+    "entity_action": {
+        "type": "and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "chill:death/spectator",
+                "source": "chill:free"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "chill:death/fall",
+                "source": "chill:free"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "chill:death/free",
+                "source": "chill:free"
+            }
+        ]
+    }
+}
