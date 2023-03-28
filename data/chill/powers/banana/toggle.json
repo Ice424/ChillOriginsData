@@ -21,7 +21,7 @@
 			"bar_index": 3
 		},
 		"key": {
-			"key":"key.origins_secondary_active"
+			"key":"key.origins.secondary_active"
 		}
 	}
 }
