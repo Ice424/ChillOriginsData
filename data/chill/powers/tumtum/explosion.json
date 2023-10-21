@@ -1,0 +1,49 @@
+{
+    "type": "origins:action_over_time",
+    "falling_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "power remove @s chill:tumtum/explosion"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power remove @s origins:elytra"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon tnt ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon tnt ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon tnt ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon tnt ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "summon tnt ~ ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "kill @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "kill @s"
+            }
+        ]
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:on_block",
+        "inverted": true
+    }
+}
