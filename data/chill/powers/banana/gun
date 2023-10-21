@@ -1,0 +1,13 @@
+{
+    "entity_action": {
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "divergence": 1.0,
+    "speed":20,
+    "count":20,
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+
+}
+}
