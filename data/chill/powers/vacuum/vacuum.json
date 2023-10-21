@@ -17,5 +17,6 @@
     "condition": {
         "type": "origins:power_active",
         "power": "chill:vacuum/vacuum_active"
-    }
+    },
+    "hidden": true
 }

@@ -7,5 +7,7 @@
     "condition": {
         "type": "origins:sneaking"
     },
-    "retain_state": false
+    "retain_state": false,
+    "name": "vacuum",
+    "description": "you can pull nearby entity's towards you"
 }
