@@ -1,15 +1,6 @@
 {
 	"powers": [
-		"chill:banana/jumpy",
-		"chill:banana/landdebuff",
-		"chill:banana/landdebuff2",
-		"chill:banana/nether",
-		"chill:banana/nosleep",
-		"chill:banana/toggle",
-		"chill:banana/vision",
-		"chill:banana/water",
-		"chill:banana/waterbuff",
-		"chill:banana/waterbuff2"
+		"chill:banan/gun"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,

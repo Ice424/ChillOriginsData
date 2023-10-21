@@ -1,4 +1,5 @@
 {
+    "type": "origins:active_self",
     "entity_action": {
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:arrow",
