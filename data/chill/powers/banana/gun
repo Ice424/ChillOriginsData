@@ -1,12 +1,16 @@
 {
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:arrow",
-    "divergence": 1.0,
+    "cooldown": 2,
+    "count":20,
+    "divergence": 1,
     "speed": 20,
-    "count": 20,
-    "key": {
-        "key": "key.origins.primary_active"
+    "hud_render": {
+        "should_render": false
     },
-    "name": "gun",
-    "description": "you have a gun"
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.attack",
+        "continuous": true
+    }
 }
