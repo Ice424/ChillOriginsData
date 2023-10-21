@@ -6,7 +6,7 @@
     "speed":20,
     "count":20,
     "key": {
-        "key": "key.origins.secondary_active"
+        "key": "key.origins.primary_active"
     }
 
 }
