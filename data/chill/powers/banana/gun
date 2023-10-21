@@ -10,5 +10,7 @@
         "key": "key.origins.primary_active"
     }
 
-}
+},
+"name":"gun",
+"description":"you have a gun"
 }
