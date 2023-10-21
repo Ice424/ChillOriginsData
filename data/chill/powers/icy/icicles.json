@@ -5,10 +5,7 @@
     "count": 3,
     "speed": 1.6,
     "divergence": 1,
-    "tag": {
-        "Pickup": "0b",
-        "Potion": "minecraft:slowness"
-    },
+    "tag": "{Pickup: 0b,Potion: \"minecraft:slowness\"}",
     "key": {
         "key": "key.origins.primary_active",
         "continuous": "false"
