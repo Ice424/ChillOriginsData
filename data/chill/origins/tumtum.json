@@ -3,7 +3,8 @@
 		"chill:tumtum/anvil",
 		"chill:tumtum/crafting",
 		"chill:tumtum/enchant",
-		"chill:tumtum/launch"
+		"chill:tumtum/launch",
+		"chill:tumtum/pork"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,
