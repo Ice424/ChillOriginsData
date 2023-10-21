@@ -1,0 +1,11 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "retain_state": false
+}

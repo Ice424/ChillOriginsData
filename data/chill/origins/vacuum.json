@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"chill:vacuum/vacuum",
+		"chill:vacuum/inventory",
+		"chill:vacuum/vacuum_active"
+	],
+	"icon": "minecraft:hopper",
+	"order": 11,
+	"impact": 3,
+	"name": "The vacuum",
+	"description": "Literally just a vacuum"
+}

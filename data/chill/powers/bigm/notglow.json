@@ -33,12 +33,12 @@
         "type": "origins:action_over_time",
         "interval": 10,
         "rising_action": {
-            "type": "revoke_power",
+            "type": "origins:revoke_power",
             "power": "chill:bigm/sglow",
             "source": "chill:noglow"
         },
         "falling_action": {
-            "type": "grant_power",
+            "type": "origins:grant_power",
             "power": "chill:bigm/sglow",
             "source": "chill:noglow"
         },
