@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 1.25,
+    "take_fall_damage": true,
+    "condition": {     
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water" ,
+    "inverted": true},
+ "interval": 20,
+    "name": "falling",
+    "description": "speedy falling"
+}

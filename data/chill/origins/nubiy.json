@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"chill:nubiy/heat",
+        "chill:nubiy/strength",
+        "chill:nubiy/hasty",
+        "chill:nubiy/murder",
+        "origins:water_vulnerability",
+        "chill:nubiy/falling",
+        "origins:more_kinetic_damage"
+    ],
+	"icon": "minecraft:wither_rose",
+	"order": 10,
+	"impact": 3,
+	"name": "Nubiy",
+	"description": "Maximus's origin"
+}

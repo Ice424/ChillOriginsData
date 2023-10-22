@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:haste",
+            "duration": 200,
+            "show_particles": false
+        }
+    },
+    "interval": 20,
+    "name": "haste",
+    "description": "you mine quickly"
+  }
