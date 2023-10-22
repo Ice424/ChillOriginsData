@@ -2,8 +2,8 @@
 	"powers": [
 		"chill:vacuum/vacuum",
 		"chill:vacuum/inventory",
-		"chill:vacuum/vacuum_active",
-		"chill:vacuum/night_vision"
+		"chill:vacuum/night_vision",
+		"chill:vacuum/select"
 	],
 	"icon": "minecraft:hopper",
 	"order": 11,

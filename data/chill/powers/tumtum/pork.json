@@ -1,0 +1,16 @@
+{
+    "name": "Pig too cute",
+    "description": "Pig too cute no eat",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "raw_porkchop"
+            },
+            {
+                "item": "cooked_porkchop"
+            }
+        ]
+    }
+}

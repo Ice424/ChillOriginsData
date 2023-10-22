@@ -16,7 +16,7 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "audioplayer play f2bcb190-807b-4c32-83d5-495722b622ca ~ ~ ~ 500"
+                "command": "audioplayer play a5a2ce2f-c44d-4cc0-92ef-0f9755bc6fdf ~ ~ ~ 500"
             },
             {
                 "type": "origins:grant_power",
