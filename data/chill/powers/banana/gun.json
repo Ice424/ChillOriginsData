@@ -1,8 +1,8 @@
 {
     "type": "origins:fire_projectile",
     "entity_type" : "minecraft:arrow",
-    "count": 20,
-    "speed": 20,
+    "count": 1,
+    "speed": 2,
     "divergence": 1,
     "tag": "{pickup:0b}",
     "key":{
