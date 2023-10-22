@@ -5,7 +5,8 @@
 		"chill:tumtum/enchant",
 		"chill:tumtum/launch",
 		"chill:tumtum/pork",
-		"origins:swim_speed"
+		"chill:tumtum/seamaster",
+		"chill:tumtum/mining"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,
