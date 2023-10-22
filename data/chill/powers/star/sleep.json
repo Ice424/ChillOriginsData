@@ -1,0 +1,29 @@
+{
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:nausea",
+                        "duration": 200,
+                        "amplifier": 1,
+                        "is_ambient": true,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:hunger",
+                        "duration": 150,
+                        "amplifier": 5,
+                        "is_ambient": true,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            }
+        ]
+    }
+}

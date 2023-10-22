@@ -1,0 +1,39 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 300,
+                    "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:strength",
+                    "duration": 300,
+                    "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:jump_boost",
+                    "duration": 300,
+                    "amplifier": 1
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "name": "night",
+    "description": "The stars empower you"
+}
