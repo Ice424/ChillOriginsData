@@ -4,12 +4,12 @@
     "type": "origins:prevent_item_use",
     "item_condition": {
         "type": "origins:ingredient",
-        "ingredients": [
+        "ingredient": [
             {
-                "type": "raw_porkchop"
+                "item": "raw_porkchop"
             },
             {
-                "type": "cooked_porkchop"
+                "item": "cooked_porkchop"
             }
         ]
     }
