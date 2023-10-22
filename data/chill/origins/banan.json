@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"chill:banana/gun"
+		"chill:banana/gun",
+		"chill:banana/flight"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,
