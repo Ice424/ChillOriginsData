@@ -1,16 +1,22 @@
 {
-    "type": "origins:action_on_hit",
-    "damage_condition": {
-        "type": "origins:projectile",
-        "projectile": "minecraft:snowball"
-    },
-    "bientity_action": {
-        "type": "origins:target_action",
-        "action": {
-            "type": "origins:set_on_fire",
-            "duration": 1
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 3,
+        "source": {
+            "name": "onFire",
+            "fire": true,
+            "bypasses_armor": true
+        },
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
         }
     },
-    "name": "crab game",
-    "description": "go touch some grass"
+    "cooldown": 1,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "should_render": true,
+        "bar_index": 13
+    }
 }
