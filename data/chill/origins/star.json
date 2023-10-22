@@ -1,0 +1,13 @@
+{
+	"powers": [
+        "chill:star/glow",
+        "chill:star/night",
+        "chill:star/food",
+        "chill:star/sleep"
+	],
+	"icon": "minecraft:nether_star",
+	"order": 11,
+	"impact": 3,
+	"name": "Child of the Star",
+	"description": "INSERT_LORE"
+}

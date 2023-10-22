@@ -1,22 +1,13 @@
 {
+    "name": "Vacuum",
+    "description": "Your pickup range is stupid.",
     "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:area_of_effect",
-        "radius": 8,
-        "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-                "type": "origins:execute_command",
-                "command": "tp @s Ice424"
-            }
-        },
-        "bientity_condition": {
-            "type": "origins:can_see"
-        }
+    "interval": 1,
+    "entity_action":
+    {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "tp @e[type=minecraft:item,distance=..8.85,nbt={PickupDelay:0s}] @s"
     },
-    "condition": {
-        "type": "origins:power_active",
-        "power": "chill:vacuum/vacuum_active"
-    },
-    "hidden": true
+    "hidden": false
 }

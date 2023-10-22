@@ -1,6 +1,6 @@
 {
     "type": "origins:active_self",
-    "cooldown": 6000,
+    "cooldown": 1800,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -11,15 +11,15 @@
         "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "summon silverfish"
+                "command": "summon silverfish ~ ~1 ~ {Health:10f,CustomName:'[{\"text\":\"☆ \",\"color\":\"#FFDE05\",\"bold\":true},{\"text\":\"Geralds Minion\",\"color\":\"#FF0000\",\"bold\":true,\"underlined\":true},{\"text\":\" ☆\",\"color\":\"#FFDE05\",\"bold\":true}]'}"
             },
             {
                 "type": "origins:execute_command",
-                "command": "summon silverfish"
+                "command": "summon silverfish ~ ~1 ~ {Health:10f,CustomName:'[{\"text\":\"☆ \",\"color\":\"#FFDE05\",\"bold\":true},{\"text\":\"Geralds Minion\",\"color\":\"#FF0000\",\"bold\":true,\"underlined\":true},{\"text\":\" ☆\",\"color\":\"#FFDE05\",\"bold\":true}]'}"
             },
             {
                 "type": "origins:execute_command",
-                "command":"summon silverfish"
+                "command": "summon silverfish ~ ~1 ~ {Health:10f,CustomName:'[{\"text\":\"☆ \",\"color\":\"#FFDE05\",\"bold\":true},{\"text\":\"Geralds Minion\",\"color\":\"#FF0000\",\"bold\":true,\"underlined\":true},{\"text\":\" ☆\",\"color\":\"#FFDE05\",\"bold\":true}]'}"
             },
             {
                 "type": "origins:execute_command",

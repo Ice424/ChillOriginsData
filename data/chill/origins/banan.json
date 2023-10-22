@@ -1,6 +1,11 @@
 {
 	"powers": [
-		"chill:banana/gun"
+		"chill:banana/gun",
+		"chill:banana/flight",
+		"origins:light_armor",
+		"origins:claustrophobia",
+		"origins:more_kinetic_damage",
+		"origins:fragile"
 		],
 	"icon": "minecraft:honey_block",
 	"order": 10,

@@ -1,10 +1,10 @@
 {
     "type": "origins:fire_projectile",
     "entity_type" : "minecraft:arrow",
-    "count": 20,
-    "speed": 20,
+    "count": 1,
+    "speed": 2,
     "divergence": 1,
-    "tag": "{pickup:0b,CustomPotionEffects:[{Id:2,duration:100,Amplifier:1b}]}",
+    "tag": "{pickup:0b}",
     "key":{
         "key" :"key.origins.primary_active",
         "continuous": "false"
@@ -14,7 +14,7 @@
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
         "bar_index": 2
     },
-    "name":"icicles",
-    "description": "shoots 3 arrows witch inflect damage and slowness"
+    "name":"gun",
+    "description": "its a gun"
     
 }
