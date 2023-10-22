@@ -1,19 +1,170 @@
 {
-    "type": "origins:entity_glow",
-    "bientity_condition": {
-        "type": "origins:distance",
-        "comparison": "<=",
-        "compare_to": 70
+    "hidden": true,
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": true,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "retain_state": false
     },
-    "use_teams": false,
-    "red": 0.0,
-    "green": 1.0,
-    "blue": 0.0,
+    "low": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
         "entity_condition": {
-        "type": "origins:entity_type",
-        "entity_type": "minecraft:player",
-        "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 0.5
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:distance",
+                    "comparison": "<=",
+                    "compare_to": 50
+                }
+            ]
+        },
+        "use_teams": false,
+        "red": 1,
+        "green": 0,
+        "blue": 0
     },
-    "name": "stalker",
-    "description": "all entities around you glow"
+    "mid": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">=",
+                    "compare_to": 0.5
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 0.8
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:distance",
+                    "comparison": "<=",
+                    "compare_to": 50
+                }
+            ]
+        },
+        "use_teams": false,
+        "red": 1,
+        "green": 0.65,
+        "blue": 0
+    },
+    "high": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">=",
+                    "compare_to": 0.8
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:distance",
+                    "comparison": "<=",
+                    "compare_to": 50
+                }
+            ]
+        },
+        "use_teams": false,
+        "red": 0,
+        "green": 1,
+        "blue": 0
+    },
+    "max": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        },
+        "type": "origins:entity_glow",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:living"
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:distance",
+                    "comparison": "<=",
+                    "compare_to": 50
+                }
+            ]
+        },
+        "use_teams": false,
+        "red": 0,
+        "green": 0.3,
+        "blue": 1
+    }
 }
