@@ -7,7 +7,7 @@
     {
         "type": "origins:execute_command",
         "permission_level": 4,
-        "command": "tp @e[type=minecraft:item,distance=..10.85,nbt={PickupDelay:0s}] @s"
+        "command": "tp @e[type=minecraft:item,distance=..8.85,nbt={PickupDelay:0s}] @s"
     },
     "hidden": false
 }
