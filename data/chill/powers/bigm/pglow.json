@@ -32,12 +32,9 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:can_see"
-                },
-                {
                     "type": "origins:distance",
                     "comparison": "<=",
-                    "compare_to": 50
+                    "compare_to": 64
                 }
             ]
         },
@@ -74,12 +71,9 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:can_see"
-                },
-                {
                     "type": "origins:distance",
                     "comparison": "<=",
-                    "compare_to": 50
+                    "compare_to": 64
                 }
             ]
         },
@@ -116,12 +110,9 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:can_see"
-                },
-                {
                     "type": "origins:distance",
                     "comparison": "<=",
-                    "compare_to": 50
+                    "compare_to": 64
                 }
             ]
         },
@@ -153,12 +144,9 @@
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:can_see"
-                },
-                {
                     "type": "origins:distance",
                     "comparison": "<=",
-                    "compare_to": 50
+                    "compare_to": 64
                 }
             ]
         },

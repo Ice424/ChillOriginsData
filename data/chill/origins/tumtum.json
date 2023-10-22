@@ -4,9 +4,7 @@
 		"chill:tumtum/crafting",
 		"chill:tumtum/enchant",
 		"chill:tumtum/launch",
-		"chill:tumtum/pork",
-		"chill:tumtum/seamaster",
-		"chill:tumtum/mining"
+		"chill:tumtum/pork"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,
