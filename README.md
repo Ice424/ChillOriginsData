@@ -10,14 +10,18 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 
 ## To Do
 
-- [x] ~~Finish To Do list~~
-- [x] ~~Possessed Origin~~
-- [x] ~~Replace fox origin~~ (not going to happen)
-- [x] ~~https://github.com/Ice424/ChillOriginsData/issues/3~~ have decided to host server on fabric will reopen issue if too laggy
-- [x] ~~set up server~~
-- [x] ~~https://github.com/Ice424/ChillOriginsData/issues/6~~
-- [ ] any buffs or debuffs
-
+### Frog
+- [ ] Frog ground pound
+### BigM
+- [ ] Dont glow when sneaking,
+- [ ] Dosent take Double Damage
+- [ ] Can only where golden boots
+- [ ] Jump With fall Damage
+### Child of The Sky
+- [ ] levatation effect on priamry ability
+### Resaurce pack
+- [ ] Short's Sword
+- [ ] Ice Pickaxe
 ## Origin List
 -   Banana
 -   Bee
