@@ -1,0 +1,38 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:modify_inventory",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "chill:banana/fuel",
+      "change": 2
+    },
+    "item_action": {
+      "type": "origins:consume",
+      "amount": 1
+    },
+    "slot": "weapon.offhand"
+  },
+  "interval": 1,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "arrow"
+          }
+        }
+      },
+      {
+        "type": "origins:resource",
+        "resource": "chill:banana/fuel",
+        "comparison": "<",
+        "compare_to": 49
+      }
+    ]
+  }
+}

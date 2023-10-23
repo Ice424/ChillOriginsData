@@ -2,8 +2,9 @@
 	"powers": [
 		"chill:banana/gun",
 		"chill:banana/imgonnakms",
-		"chill:banana/pain",
-		"chill:banana/pleasehelp",
+		"chill:banana/fuel",
+		"chill:banana/refuel",
+		"origins:carnivore",
 		"origins:light_armor",
 		"origins:claustrophobia",
 		"origins:more_kinetic_damage",

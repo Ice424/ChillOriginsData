@@ -9,7 +9,7 @@
 		"bar_index": 0,
 		"condition": {
 			"type": "origins:resource",
-			"resource": "chill:banana/arrows",
+			"resource": "chill:banana/fuel",
 			"comparison": "<",
 			"compare_to": 50
 		}

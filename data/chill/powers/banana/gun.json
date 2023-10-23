@@ -1,20 +1,53 @@
 {
-    "type": "origins:fire_projectile",
-    "entity_type" : "minecraft:arrow",
-    "count": 1,
-    "speed": 2,
-    "divergence": 1,
-    "tag": "{pickup:0b}",
-    "key":{
-        "key" :"key.origins.primary_active",
-        "continuous": "true"
-    },
-    "hud_render":{
-        "should_render":"true",
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-        "bar_index": 2
-    },
-    "name":"gun",
-    "description": "its a gun"
-    
+   "type": "origins:active_self",
+   "entity_action": {
+      "type": "origins:and",
+      "actions": [
+         {
+            "type": "origins:fire_projectile",
+            "entity_type": "minecraft:arrow",
+            "count": 1,
+            "speed": 1.6,
+            "divergence": 1,
+            "tag": {"Pickup": "0b"}
+         },
+         {
+            "type": "origins:change_resource",
+            "resource": "chill:banana/fuel",
+            "change": -2
+         }
+      ]
+   },
+   "cooldown": 0,
+   "hud_render": {
+      "should_render": false
+   },
+   "condition": {
+      "type": "origins:and",
+      "conditions": [
+         {
+            "type": "origins:resource",
+            "resource": "chill:banana/fuel",
+            "comparison": ">=",
+            "compare_to": 1
+         },
+         {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+               "type": "origins:ingredient",
+               "ingredient": {
+                  "item": "arrow"
+               }
+            },
+            "inverted": true
+         }
+      ]
+   },
+   "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+   },
+   "name": "Jetpack",
+   "description": "You have a gun"
 }
