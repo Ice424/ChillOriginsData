@@ -17,7 +17,7 @@
             {
                 "type": "origins:execute_command",
                 "permission_level": 4,
-                "command": "audioplayer play a5a2ce2f-c44d-4cc0-92ef-0f9755bc6fdf ~ ~ ~ 500"
+                "command": "audioplayer play 05b13873-7b01-4826-a455-ff2572b9f0fb ~ ~ ~ 500"
             },
             {
                 "type": "origins:grant_power",
