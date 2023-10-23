@@ -7,7 +7,7 @@
     "tag": "{pickup:0b}",
     "key":{
         "key" :"key.origins.primary_active",
-        "continuous": "false"
+        "continuous": "true"
     },
     "hud_render":{
         "should_render":"true",

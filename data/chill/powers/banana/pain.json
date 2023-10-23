@@ -1,0 +1,79 @@
+{
+    "name": "You cant eat anything but meat.",
+    "description": "I am going to kill myself. This is gonna take so long",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "bread"
+            },
+            {
+                "item": "apple"
+            },
+            {
+                "item": "baked_potato"
+            },
+            {
+                "item": "beetroot"
+            },
+            {
+                "item": "beetroot_soup"
+            },
+            {
+                "item": "bread"
+            },
+            {
+                "item": "cake"
+            },
+            {
+                "item": "carrot"
+            },
+            {
+                "item": "chorus_fruit"
+            },
+            {
+                "item": "cookie"
+            },
+            {
+                "item": "dried_kelp"
+            },
+            {
+                "item": "enchanted_golden_apple"
+            },
+            {
+                "item": "golden_apple"
+            },
+            {
+                "item": "glow_berries"
+            },
+            {
+                "item": "golden_carrot"
+            },
+            {
+                "item": "honey_bottle"
+            },
+            {
+                "item": "melon_slice"
+            },
+            {
+                "item": "mushroom_stew"
+            },
+            {
+                "item": "poisonous_potato"
+            },
+            {
+                "item": "potato"
+            },
+            {
+                "item": "pumpkin_pie"
+            },
+            {
+                "item": "suspicious_stew"
+            },
+            {
+                "item": "sweet_berries"
+            }
+        ]
+    }
+}
