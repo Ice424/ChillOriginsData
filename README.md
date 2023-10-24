@@ -10,15 +10,6 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 
 ## To Do
 
-### Frog
-- [x] ~~Frog ground pound~~
-### BigM
-- [x] ~~Dont glow when sneaking~~
-- [x] ~~Dosent take Double Damage~~
-- [x] ~~Can only where golden boots~~
-- [x] ~~Jump With fall Damage~~
-### Child of The Sky
-- [x] ~~levatation effect on priamry ability~~
 ### Resource pack
 - [ ] Short's Sword
 - [ ] Ice Pickaxe
