@@ -29,15 +29,6 @@
                     "amplifier": 1,
                     "show_particles": false
                 }
-            },
-            {
-                "type": "origins:apply_effect",
-                "effect": {
-                    "effect": "minecraft:regeneration",
-                    "duration": 300,
-                    "amplifier": 1,
-                    "show_particles": false
-                }
             }
         ]
     },
