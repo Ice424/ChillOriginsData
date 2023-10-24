@@ -3,7 +3,8 @@
         "chill:star/glow",
         "chill:star/night",
         "chill:star/food",
-        "chill:star/sleep"
+        "chill:star/sleep",
+		"chill:star/levitation"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 11,

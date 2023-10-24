@@ -1,9 +1,10 @@
 {
 	"powers": [
 		"chill:bigm/ddeal",
-		"chill:bigm/dtake",
 		"chill:bigm/sglow",
-		"chill:bigm/pglow"
+		"chill:bigm/pglow",
+		"chill:bigm/jump",
+		"chill:bigm/armor"
 	],
 	"icon": "minecraft:end_portal_frame",
 	"order": 10,

@@ -26,6 +26,14 @@
                     "duration": 300,
                     "amplifier": 1
                 }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:night_vision",
+                    "duration": 300,
+                    "amplifier": 0
+                }
             }
         ]
     },

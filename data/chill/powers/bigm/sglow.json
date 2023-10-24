@@ -5,5 +5,9 @@
     "green": 0,
     "blue": 0.65098039215,
     "name": "self glow",
-    "description": "you glow der"
+    "description": "you glow der",
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    }
 }

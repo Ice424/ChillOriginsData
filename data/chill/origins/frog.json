@@ -3,8 +3,7 @@
 		"chill:frog/tongue",
 		"chill:frog/slow",
 		"chill:frog/jump",
-		"chill:frog/fall",
-		"chill:frog/pound"
+		"chill:frog/fall"
 	],
 	"icon": "minecraft:slime_block",
 	"order": 10,

@@ -11,17 +11,19 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 ## To Do
 
 ### Frog
-- [ ] Frog ground pound
+- [x] ~~Frog ground pound~~
 ### BigM
-- [ ] Dont glow when sneaking,
-- [ ] Dosent take Double Damage
-- [ ] Can only where golden boots
-- [ ] Jump With fall Damage
+- [x] ~~Dont glow when sneaking~~
+- [x] ~~Dosent take Double Damage~~
+- [x] ~~Can only where golden boots~~
+- [x] ~~Jump With fall Damage~~
 ### Child of The Sky
-- [ ] levatation effect on priamry ability
-### Resaurce pack
+- [x] ~~levatation effect on priamry ability~~
+### Resource pack
 - [ ] Short's Sword
 - [ ] Ice Pickaxe
+
+
 ## Origin List
 -   Banana
 -   Bee
