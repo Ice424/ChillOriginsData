@@ -1,36 +1,46 @@
 {
-    "type": "origins:stacking_status_effect",
-    "name": "Master of the Seas",
-    "description": "You have grown in the ocean; you are suited to live in it. Your lungs do very well with water, and your swimming skills are much more developped than those of others. Additionally, you have a very clear vision inside water.",
-    "min_stacks": 0,
-    "max_stacks": 10,
-    "duration_per_stack": 10,
-    "effects": [
-        {
-            "effect": "minecraft:water_breathing",
-			"amplifier": 0,
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        },
-		{
-            "effect": "minecraft:night_vision",
-			"amplifier": 0,
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        },
-        {
-            "effect": "minecraft:dolphins_grace",
-			"amplifier": 0,
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        }
-        
-    ],
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:water_breathing",
+                    "duration": 300,
+                    "amplifier": 1,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:night_vision",
+                    "duration": 300,
+                    "amplifier": 1,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:dolphins_grace",
+                    "duration": 300,
+                    "amplifier": 1,
+                    "show_particles": false
+                }
+            }
+        ]
+    },
+    "interval": 20,
     "condition": {
-		"type": "origins:submerged_in",
-		"fluid": "minecraft:water"
-	}
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "effect clear @s"
+    },
+    "name": "Master of the Seas",
+    "description": "You have grown in the ocean; you are suited to live in it. Your lungs do very well with water, and your swimming skills are much more developped than those of others. Additionally, you have a very clear vision inside water."
 }

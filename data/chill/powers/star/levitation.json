@@ -1,0 +1,19 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 150,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 6
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:levitation",
+            "duration": 100,
+            "amplifier": 1
+        }
+    },
+    "name": "levitation",
+    "description": "You are drawn toward the stars"
+}

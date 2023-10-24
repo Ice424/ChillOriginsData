@@ -5,8 +5,23 @@
         "fall_distance": 0
     },
     "falling_action": {
-        "type": "origins:execute_command",
-        "command": "power remove @s chill:frog/fall_damage"
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 8,
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "client": true,
+                    "z": 0.3,
+                    "y": 0.89
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power remove @s chill:frog/fall_damage"
+            }
+        ]
     },
     "interval": 1,
     "condition": {
