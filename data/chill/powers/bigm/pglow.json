@@ -5,7 +5,7 @@
         "type": "origins:toggle",
         "active_by_default": true,
         "key": {
-            "key": "key.origins.primary_active"
+            "key": "key.origins.secondary_active"
         },
         "retain_state": false
     },
@@ -31,11 +31,6 @@
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [
-                {
-                    "type": "origins:distance",
-                    "comparison": "<=",
-                    "compare_to": 64
-                }
             ]
         },
         "use_teams": false,
@@ -70,11 +65,6 @@
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [
-                {
-                    "type": "origins:distance",
-                    "comparison": "<=",
-                    "compare_to": 64
-                }
             ]
         },
         "use_teams": false,
@@ -109,11 +99,6 @@
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [
-                {
-                    "type": "origins:distance",
-                    "comparison": "<=",
-                    "compare_to": 64
-                }
             ]
         },
         "use_teams": false,
@@ -143,11 +128,6 @@
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [
-                {
-                    "type": "origins:distance",
-                    "comparison": "<=",
-                    "compare_to": 64
-                }
             ]
         },
         "use_teams": false,
