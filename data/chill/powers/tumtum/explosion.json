@@ -37,6 +37,10 @@
             },
             {
                 "type": "origins:execute_command",
+                "command": "stopsound @a * minecraft:tumtum.freebird.play"
+            },
+            {
+                "type": "origins:execute_command",
                 "command": "kill @s"
             }
         ]

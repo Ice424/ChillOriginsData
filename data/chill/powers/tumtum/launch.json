@@ -17,7 +17,7 @@
             {
                 "type": "origins:execute_command",
                 "permission_level": 4,
-                "command": "audioplayer play 05b13873-7b01-4826-a455-ff2572b9f0fb ~ ~ ~ 500"
+                "command": "playsound minecraft:tumtum.freebird.play player @a ~ ~ ~ 100"
             },
             {
                 "type": "origins:grant_power",
