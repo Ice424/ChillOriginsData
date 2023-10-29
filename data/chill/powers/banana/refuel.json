@@ -5,7 +5,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "chill:banana/fuel",
-      "change": 10
+      "change": 5
     },
     "item_action": {
       "type": "origins:consume",
