@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:scare_creepers",
+        "chill:kan/boing",
+        "chill:kan/nerf",
+        "chill:kan/waterbreth"
+		],
+	"icon": "minecraft:conduit",
+	"order": 10,
+	"impact": 3,
+	"name": "Kan",
+	"description": "Kan's origin"
+}

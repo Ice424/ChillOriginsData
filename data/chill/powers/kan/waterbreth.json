@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": { 
+        "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:water_breathing",
+                    "duration": 300,
+                    "amplifier": 1,
+                    "show_particles": false
+                }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "effect clear @s"
+    },
+    "name": "Water Breathing",
+    "Description":"You can breath underwater."
+
+
+}

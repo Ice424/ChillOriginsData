@@ -1,0 +1,18 @@
+{
+    "name": "Fish out of Water",
+    "description": "You have 4 less hearts than a standard player when out of water.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -8,
+        "name": "axolotl_health_decrease"
+    },
+    "tick_rate": 20,
+    "update_health": true
+}
