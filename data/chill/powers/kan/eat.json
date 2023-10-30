@@ -1,0 +1,56 @@
+{
+    "name": "Fabric Muncher",
+    "description": "You eat fabric instead of the gross normal food like everyone else. This includes wools, leather, paper, and wheat.",
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag":"minecraft:wood" 
+                    }
+                }
+            },
+            {
+                "inverted": false,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": "<",
+                "compare_to": 20
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:feed",
+                "food": 2,
+                "saturation": 0
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}
