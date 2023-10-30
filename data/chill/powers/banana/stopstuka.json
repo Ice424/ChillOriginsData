@@ -4,15 +4,14 @@
         
     "type": "origins:execute_command",
     "permission_level": 4,
-    "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
+    "command": "stopsound @a player minecraft:banan.stuka.play"
     },
     "key": {
-        "key": "key.origins.secondary_active",
+        "key": "key.origins.primary_active",
         "continuous": false
     },
     "condition":{
-        "type":"origins:sneaking",
-        "inverted": true
+        "type":"origins:sneaking"
         
     }
 }
