@@ -2,7 +2,7 @@
     "type":"origins:active_self",
     "entity_action": {
         "type": "origins:toggle",
-        "power": "chill:banan/stuka"
+        "power": "chill:banana/stuka"
     },
     "key": {
         "key": "key.origins.secondary_active",
