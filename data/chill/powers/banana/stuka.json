@@ -4,6 +4,10 @@
         "type": "origins:play_sound",
         "sound": "minecraft:banan.stuka.play",
         "volume": 3
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "chill:banana/toggle"
     }
 
 }
