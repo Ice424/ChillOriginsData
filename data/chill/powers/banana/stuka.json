@@ -1,5 +1,9 @@
 {
-"type": "origins:play_sound",
-"sound": "minecraft:banan.stuka.play",
-"volume": 3
+    "type":"origins:action_over_time",
+    "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:banan.stuka.play",
+        "volume": 3
+    }
+
 }
