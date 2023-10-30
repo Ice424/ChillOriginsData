@@ -7,5 +7,7 @@
     "key": {
         "key": "key.origins.secondary_active",
         "continuous": true
-     }
+     },
+    "name":"stuka",
+    "description":"you make noise"
 }
