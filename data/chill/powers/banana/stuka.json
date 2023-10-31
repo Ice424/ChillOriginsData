@@ -1,18 +1,11 @@
 {
-    "type":"origins:active_self",
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:elytra_free_fall",
     "entity_action": {
-        
-    "type": "origins:execute_command",
-    "permission_level": 4,
-    "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
     },
-    "key": {
-        "key": "key.origins.secondary_active",
-        "continuous": false
-    },
-    "condition":{
-        "type":"origins:sneaking",
-        "inverted": true
+    "condition": {
         
     }
 }
