@@ -2,11 +2,12 @@
 	"powers": [
 		"chill:banana/flight",
 		"chill:banana/gun",
-		"chill:banana/imgonnakms",
+		"chill:banana/imnotgonnakms",
 		"chill:banana/fuel",
 		"chill:banana/refuel",
 		"chill:banana/toggle",
 		"chill:banana/stuka",
+		"chill:banana/stopstuka",
 		"origins:aerial_combatant",
 		"origins:carnivore",
 		"origins:light_armor",

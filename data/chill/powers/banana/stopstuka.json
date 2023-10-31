@@ -6,12 +6,9 @@
     "permission_level": 4,
     "command": "stopsound @a player minecraft:banan.stuka.play"
     },
-    "key": {
-        "key": "key.origins.primary_active",
-        "continuous": false
-    },
-    "condition":{
-        "type":"origins:sneaking"
-        
+       "condition":{
+        "type":"origins:power_active",
+        "power":"chill:banana/toggle",
+        "inverted": true
     }
 }

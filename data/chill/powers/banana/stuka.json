@@ -6,13 +6,9 @@
     "permission_level": 4,
     "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
     },
-    "key": {
-        "key": "key.origins.secondary_active",
-        "continuous": false
-    },
     "condition":{
-        "type":"origins:sneaking",
-        "inverted": true
+        "type":"origins:power_active",
+        "power":"chill:banana/toggle"
         
     }
 }
