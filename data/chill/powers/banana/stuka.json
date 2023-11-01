@@ -1,14 +1,25 @@
 {
-    "type":"origins:active_self",
+    "type": "origins:action_over_time",
     "entity_action": {
-        
-    "type": "origins:execute_command",
-    "permission_level": 4,
-    "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
     },
-    "condition":{
-        "type":"origins:power_active",
-        "power":"chill:banana/toggle"
-        
+    "falling_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "stopsound @a player minecraft:banan.stuka.play"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "chill:banana/toggle"
+            },
+            {
+                "type": "origins:fall_flying"
+            }
+        ]
     }
 }
