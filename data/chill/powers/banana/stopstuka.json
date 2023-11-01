@@ -4,11 +4,11 @@
         
     "type": "origins:execute_command",
     "permission_level": 4,
-    "command": "playsound minecraft:banan.stuka.play player @a ~ ~ ~"
+    "command": "stopsound @a player minecraft:banan.stuka.play"
     },
-    "condition":{
+       "condition":{
         "type":"origins:power_active",
-        "power":"chill:banana/toggle"
-        
+        "power":"chill:banana/toggle",
+        "inverted": true
     }
 }
