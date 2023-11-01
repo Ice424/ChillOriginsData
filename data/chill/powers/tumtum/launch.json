@@ -1,0 +1,39 @@
+{
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "addition",
+        "value": 3
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+            },
+            {
+                "type": "origins:dismount"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "playsound minecraft:tumtum.freebird.play player @a ~ ~ ~ 100"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "chill:tumtum/explosion",
+                "source": "chill:jump"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "origins:elytra",
+                "source": "chill:jump"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "jump",
+    "description": "by crouching  you can jump high"
+}
