@@ -1,39 +1,45 @@
 {
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "addition",
-        "value": 3
-    },
+    "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
         "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
-            },
-            {
-                "type": "origins:dismount"
+                "command": "summon minecraft:marker ~ ~ ~ {Tags:[time_marker]}"
             },
             {
                 "type": "origins:execute_command",
-                "permission_level": 4,
-                "command": "playsound minecraft:tumtum.freebird.play player @a ~ ~ ~ 100"
+                "command": "execute as @e[distance=..10] run tag @s add frozen_time"
             },
             {
-                "type": "origins:grant_power",
-                "power": "chill:tumtum/explosion",
-                "source": "chill:jump"
+                "type": "origins:execute_command",
+                "command": "execute as @e[tag=frozen_time] run data merge entity @s {NoAI:1b,NoGravity:1b}"
             },
             {
-                "type": "origins:grant_power",
-                "power": "origins:elytra",
-                "source": "chill:jump"
+                "type": "origins:delay",
+                "ticks": 200,
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[tag=time_marker,limit=1,sort=nearest] run execute as @e[distance=..20,tag=frozen_time] run data merge entity @s {NoAI:0b,NoGravity:0b}"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 200,
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[tag=time_marker,limit=1,sort=nearest] run execute as @e[distance=..20,tag=frozen_time] run tag @s remove frozen_time"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 201,
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[tag=time_marker,limit=1,sort=nearest] run kill"
+                }
             }
         ]
     },
-    "condition": {
-        "type": "origins:sneaking"
-    },
-    "name": "jump",
-    "description": "by crouching  you can jump high"
+    "cooldown": 20
 }
