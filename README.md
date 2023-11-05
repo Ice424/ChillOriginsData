@@ -10,24 +10,27 @@ This also requires a resource pack that can be found here: https://github.com/Ic
 
 ## To Do
 
-### Resource pack
-- [ ] Short's Sword
-- [ ] Ice Pickaxe
-
+-  free death
 
 ## Origin List
 -   Banana
 -   Bee
 -   BigM
--   Clicker
 -   Death
--   Ferrari
 -   Frog
 -   Icy
--   SAAAGAAAA
+-   Kan
+-   nubiy
+-   possesed
 -   The Short One
--   Support (overwat reference?)
+-   Child of the star
 -   Tall Boi/Traffic Cone
 -   The Catpire
 -   Tum Tum
--   possessed 
+-   Vacuume
+
+## Discontinued but still in thepack
+-   Support
+-   Ferrari
+-   Clicker (will probebly be removed)
+-   SAAAGAAAA

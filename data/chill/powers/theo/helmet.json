@@ -1,0 +1,25 @@
+{
+    "name": "Burn in Daylight",
+    "description": "Skeletons burn if they dont have a block above them or a helmet on their head. Skeletons have a small amount of time to find cover before they start burning.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "inverted": true,
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:armor_value",
+                    "comparison": ">",
+                    "compare_to": 1
+                }
+            }
+        ]
+    },
+    "type": "origins:burn",
+    "interval": 100,
+    "burn_duration": 5
+}

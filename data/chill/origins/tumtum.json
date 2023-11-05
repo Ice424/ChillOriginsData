@@ -6,7 +6,8 @@
 		"chill:tumtum/launch",
 		"chill:tumtum/pork",
 		"chill:tumtum/seamaster",
-		"chill:tumtum/mining"
+		"chill:tumtum/mining",
+		"chill:tumtum/timerewind"
 	],
 	"icon": "minecraft:cod",
 	"order": 11,
