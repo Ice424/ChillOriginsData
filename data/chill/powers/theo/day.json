@@ -12,10 +12,6 @@
                 }
             },
             {
-                "type": "origins:set_on_fire",
-                "duration": 1.5
-            },
-            {
                 "type": "origins:apply_effect",
                     "effect": {
                     "effect": "minecraft:slowness",

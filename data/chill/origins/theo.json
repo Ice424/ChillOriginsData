@@ -5,7 +5,8 @@
 		"chill:theo/summon",
 		"chill:theo/sword",
 		"chill:theo/sunglow",
-		"chill:theo/jump"
+		"chill:theo/jump",
+		"chill:theo/helmet"
 	],
 	"icon": "minecraft:nether_wart_block",
 	"order": 11,

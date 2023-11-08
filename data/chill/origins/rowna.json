@@ -1,12 +1,12 @@
 {
 	"powers": [
-		"chill:death/damage",
-		"chill:death/dead",
-		"chill:death/fall",
-		"chill:death/free",
-		"chill:death/spectator",
-		"chill:death/survival",
-        "chill:death/setup"
+		"chill:rowna/damage",
+		"chill:rowna/dead",
+		"chill:rowna/fall",
+		"chill:rowna/free",
+		"chill:rowna/spectator",
+		"chill:rowna/survival",
+        "chill:rowna/setup"
     ],
 	"icon": "minecraft:skeleton_skull",
 	"order": 10,
