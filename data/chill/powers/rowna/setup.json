@@ -21,7 +21,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scoreboard players set @s spectator 2"
+				"command": "scoreboard players set @s spectator 10"
 			}
 		]
     },

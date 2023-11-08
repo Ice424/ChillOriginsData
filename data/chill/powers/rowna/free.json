@@ -1,5 +1,5 @@
 {
-    "type": "origins:active_over_time",
+    "type": "origins:action_over_time",
     "rising action": {
         "type": "and",
         "actions": [

@@ -3,6 +3,6 @@
     "modifier": {
         "name": "u one shot",
         "operation": "addition",
-        "value": 160.0
+        "value": 10.0
     }
 }
