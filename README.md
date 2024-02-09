@@ -8,9 +8,6 @@ it may not idk why
 
 This also requires a resource pack that can be found here: https://github.com/Ice424/ChillOriginsReasources/tree/main
 
-## To Do
-
--  free death
 
 ## Origin List
 -   Banana
