@@ -2,7 +2,7 @@
 	"powers": [
 		"chill:banana/flight",
 		"chill:banana/gun",
-		"chill:banana/imnotgonnakms",
+		"chill:banana/jump",
 		"chill:banana/fuel",
 		"chill:banana/refuel",
 		"chill:banana/toggle",
@@ -18,5 +18,5 @@
 	"order": 10,
 	"impact": 3,
 	"name": "banan",
-	"description": "Ethan's origin"
+	"description": "Squigliy's origin"
 }

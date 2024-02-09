@@ -25,5 +25,7 @@
                 ]
             }
         ]
-    }
+    },
+    "name": "sleep",
+    "description": "you dont like sleeping"
 }

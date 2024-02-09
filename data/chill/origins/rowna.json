@@ -1,16 +1,17 @@
 {
 	"powers": [
-		"chill:rowna/damage",
-		"chill:rowna/dead",
-		"chill:rowna/fall",
-		"chill:rowna/free",
-		"chill:rowna/spectator",
-		"chill:rowna/survival",
-        "chill:rowna/setup"
+		"chill:death/damage",
+		"chill:death/dead",
+		"chill:death/fall",
+		"chill:death/free",
+		"chill:death/spectator",
+		"chill:death/survival",
+        "chill:death/setup"
     ],
 	"icon": "minecraft:skeleton_skull",
 	"order": 10,
 	"impact": 3,
 	"name": "Death",
-	"description": "You watch from above picking on those who are about to die"
+	"description": "You watch from above picking on those who are about to die. it kinda works look in file for more info",
+	"coments": "some of this origin works occasionally but it is not the greatest but it was made for someone who didn't really want to play the game and just spectate" 
 }

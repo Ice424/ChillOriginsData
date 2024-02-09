@@ -134,5 +134,7 @@
         "red": 0,
         "green": 0.3,
         "blue": 1
-    }
+    },
+    "name" :"entity's glow around you based on their health",
+    "description": "entity's glow around you based on their health"
 }

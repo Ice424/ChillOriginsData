@@ -48,6 +48,6 @@
       "key": "key.origins.primary_active",
       "continuous": true
    },
-   "name": "Jetpack",
+   "name": "gun",
    "description": "You have a gun"
 }

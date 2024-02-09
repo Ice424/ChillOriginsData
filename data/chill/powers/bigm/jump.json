@@ -9,5 +9,7 @@
     "key": {
         "key": "key.origins.primary_active",
         "continuous": true
-    }
+    },
+    "name": "you can jump",
+    "description": "you can take fall damage"
 }

@@ -34,5 +34,7 @@
         "compare_to": 49
       }
     ]
-  }
+  },
+  "name": "refuel",
+  "description": "place plants in the offhand to refuel"
 }

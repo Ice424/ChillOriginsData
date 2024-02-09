@@ -4,5 +4,6 @@
             "item": "carved_pumpkin",
             "tag": "{CustomModelData:2}",
             "slot": 39
-        }
+        },
+    "hidden": true
 }

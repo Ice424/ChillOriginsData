@@ -6,5 +6,7 @@
     "modifier": {
         "operation": "add_base_late",
         "value": -3.5
-    }
+    },
+    "name": "fall damage",
+    "description": "small things take less fall damage"
 }

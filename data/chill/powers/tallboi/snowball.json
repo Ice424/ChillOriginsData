@@ -18,5 +18,7 @@
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
         "should_render": true,
         "bar_index": 13
-    }
+    },
+    "name": "crab game",
+    "desciption": "look i made snowballs do damage"
 }

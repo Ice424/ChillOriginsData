@@ -6,5 +6,7 @@
     "modifier": {
         "operation": "add_base_late",
         "value": 3.5
-    }
+    },
+    "name": "falling",
+    "description": "you fall faster"
 }

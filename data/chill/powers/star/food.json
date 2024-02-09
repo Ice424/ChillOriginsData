@@ -7,5 +7,7 @@
     },
     "condition": {
         "type": "origins:daytime"
-    }
+    },
+    "name":"Increased exhaustion",
+    "dscription": "during the daytime your exhaustion is increased by 1.5x"
 }

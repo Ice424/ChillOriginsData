@@ -27,5 +27,6 @@
     "condition": {
         "type": "origins:on_block",
         "inverted": true
-    }
+    },
+    "hidden": true
 }

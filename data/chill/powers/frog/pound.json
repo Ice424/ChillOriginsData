@@ -18,5 +18,7 @@
                 "command": "power remove @s chill:frog/fall_damage"
             }
         ]
-    }
+    },
+    "name": "ground pound",
+    "description": "when you fall from a high enough distance you deal knock back to mobs"
 }

@@ -7,5 +7,7 @@
     "saturation_modifier": {
         "operation": "addition",
         "value": 1
-    }
+    },
+    "name": "idk",
+    "description": "idk forgot what this does"
 }

@@ -11,5 +11,7 @@
                 "show_particles": false
             }
         }
-    }
+    },
+    "name": "glow hit",
+    "description": "when you hit something, it glows" 
 }

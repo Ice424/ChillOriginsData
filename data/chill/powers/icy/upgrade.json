@@ -54,5 +54,6 @@
         "amount": 1
         }
     },
-    "hidden": true
+    "name": "better boots",
+    "description": "you can upgrade your boots"
 }
