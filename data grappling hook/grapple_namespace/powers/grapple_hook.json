@@ -1,0 +1,53 @@
+{
+    "type": "origins:multiple",
+
+    "loop": {
+        "type": "origins:action_over_time",
+        "interval": 2,
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:command",
+                "command": "execute as @a[nbt={Tags:['grapple_user']},distance=..27.5] if score @s GrappleUUID = @e[distance=0,limit=1] GrappleUUID",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "execute as @a[nbt={Tags:['grapple_user']},distance=..27.5] if score @s GrappleUUID = @e[distance=0,limit=1] GrappleUUID run teleport @e[distance=0] ~ ~ ~ facing entity @s"
+                    },
+                    {
+                        "type": "origins:raycast",
+                        "distance": 27.5,
+                        "block": false,
+                        "entity": true,
+                        "shape_type": "visual",
+                        "fluid_handling": "any",
+                        "command_along_ray": "particle electric_spark",
+                        "command_step": 0.5
+                    }
+                ]
+            },
+            "else_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "execute as @a[nbt={Tags:['grapple_user']},distance=..50] if score @s GrappleUUID = @e[distance=0,limit=1] GrappleUUID run execute at @s run playsound minecraft:block.tripwire.detach master @a[distance=..16] ~ ~ ~ 1 1.6"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "function grapple_namespace:grapple_hook_kill"
+                    }
+                ]
+            }
+        }
+    },
+
+    "invis": {
+        "type": "origins:invisibility"
+    }
+}

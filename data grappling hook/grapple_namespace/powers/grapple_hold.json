@@ -1,0 +1,271 @@
+{
+    "name": "Grappling Hook",
+    "description": "Made by finn_nerd, originally for Origins 1.20.1.",
+    "type": "origins:multiple",
+    
+    "callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s add grapple_user"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives add GrappleUUID dummy"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 1,
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute store result score @s GrappleUUID run data get entity @s UUID[0]"
+                    }
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "tag @s remove grapple_user"
+        }
+    },
+
+
+    "keybind": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_hold_keybind",
+            "change": 2
+        }
+    },
+
+
+    "hold_keybind": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 2
+    },
+
+
+    "drain_keybind": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_hold_keybind",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_hold_keybind",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "spawn": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:raycast",
+            "distance": 25,
+            "entity": false,
+            "shape_type": "collider",
+            "fluid_handling": "none",
+            "hit_action": {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.dispenser.launch master @a[distance=..30] ~ ~ ~ 0.4 0.6"
+            },
+            "command_at_hit": "function grapple_namespace:grapple_hook_spawn",
+            "command_hit_offset": 0.5
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run function grapple_namespace:grapple_hook_kill"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_hold_keybind",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "slow_falling": {
+        "type": "origins:modify_falling",
+        "take_fall_damage": false,
+        "velocity": 0.04,
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "pull": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID run damage @s 0 generic_kill by @p[distance=0]"
+                },
+                {
+                    "type": "origins:selector_action",
+                    "selector": "@e[type = minecraft:bat,distance=7.5..27.5,nbt={Tags:['grapple_hook']}]",
+                    "bientity_action": {
+                        "type": "origins:invert",
+                        "action": {
+                            "type": "origins:if_else",
+                            "condition": {
+                                "type": "origins:target_condition",
+                                "condition": {
+                                   "type": "origins:sneaking"
+                                }
+                            },
+                            "if_action": {
+                                "type": "origins:add_velocity",
+                                "z": -0.035
+                            },
+                            "else_action": {
+                                "type": "origins:add_velocity",
+                                "z": -0.1
+                            }
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "origins:attacker"
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "forward": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.forward",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "z": 0.05,
+            "space": "local"
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "back": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.back",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "z": -0.05,
+            "space": "local"
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "left": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.left",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "x": 0.05,
+            "space": "local"
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "right": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.right",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:add_velocity",
+            "x": -0.05,
+            "space": "local"
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..27.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "up": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        },
+        "entity_action": {
+            "type": "origins:selector_action",
+            "selector": "@e[type = minecraft:bat,distance = 1..7.5,sort=nearest,limit=1,nbt={Tags:['grapple_hook']}]",
+            "bientity_action": {
+                "type": "origins:invert",
+                "action": {
+                    "type": "origins:add_velocity",
+                    "z": -0.1
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:attacker"
+            }
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute as @e[type=bat,nbt={Tags:['grapple_hook']},distance=..7.5] if score @s GrappleUUID = @p[distance=0] GrappleUUID",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}
